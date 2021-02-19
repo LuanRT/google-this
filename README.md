@@ -11,9 +11,9 @@ npm install google-it
 ## Usage
 
 ```nodejs
-const googleIt = require('google-it');
+const googleThis = require('google-this');
 
-googleIt('Minecraft')
+googleThis('Minecraft')
    .then((results) => {
        console.log(
        '- Title:\n'+results[0].title+'\n\n'+
