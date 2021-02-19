@@ -1,0 +1,28 @@
+{
+  "name": "googleit",
+  "version": "1.0.0",
+  "description": "A module to get the results of a Google search.",
+  "main": "googleIt.js",
+  "scripts": {
+    "test": "node googleIt.js"
+  },
+  "dependencies": {
+      "request": "^2.88.2",
+      "cheerio": "^1.0.0-rc.3",
+      "html-entities": "2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuanLRT/google-it.git"
+  },
+  "keywords": [
+    "google-search",
+    "google"
+  ],
+  "author": "LuanRT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuanLRT/google-it/issues"
+  },
+  "homepage": "https://github.com/LuanLRT/google-it#readme"
+}
