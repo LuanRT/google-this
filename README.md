@@ -1,6 +1,6 @@
-# GoogleIt
+# GoogleThis
 
-GoogleIt is a module that allows you to get the results from a Google search programmatically!
+GoogleThis is a module that allows you to get the results from a Google search programmatically!
 
 ## Installation
 
