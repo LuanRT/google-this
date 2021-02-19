@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const htmlEntities = require('html-entities').XmlEntities;
 const entities = new htmlEntities();
 
-const googleIt = (query) => {
+const googleThis = (query) => {
     let options = {
         url: `https://google.com/search?q=${query}`,
         headers: {
@@ -33,4 +33,4 @@ const googleIt = (query) => {
     });
 };
 
-module.exports = googleIt;
+module.exports = googleThis;
