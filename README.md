@@ -11,7 +11,7 @@ npm install google-it
 ## Usage
 
 ```nodejs
-const googleThis = require('google-this');
+const googleThis = require('@luanrt/google-this');
 
 googleThis('Minecraft')
    .then((results) => {
@@ -22,7 +22,6 @@ googleThis('Minecraft')
    }).catch ((err) => {
        console.log('Hm, something went wrong!\n'+err);
    });
-});
                        
 ```
 
