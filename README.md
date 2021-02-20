@@ -15,10 +15,7 @@ const googleThis = require('@luanrt/google-this');
 
 googleThis('Minecraft')
    .then((results) => {
-       console.log(
-       '- Title:\n'+results[0].title+'\n\n'+
-       '- Snippet:\n'+results[0].description+'\n\n'+
-       '- Link:\n'+results[0].url);
+       console.log(results);
    }).catch ((err) => {
        console.log('Hm, something went wrong!\n'+err);
    });
