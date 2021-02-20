@@ -10,7 +10,7 @@ npm install @luanrt/google-this
 
 ## Usage
 
-```nodejs
+```js
 const googleThis = require('@luanrt/google-this');
 
 googleThis('Minecraft')
