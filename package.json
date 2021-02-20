@@ -1,6 +1,6 @@
 {
   "name": "@luanrt/google-this",
-  "version": "1.0.1-rm",
+  "version": "1.0.1-rm5",
   "description": "A module to get the results from a Google search.",
   "main": "googleThis.js",
   "scripts": {
@@ -16,9 +16,12 @@
     "url": "git+https//github.com/LuanLRT/google-this.git"
   },
   "keywords": [
-    "Google",
+    "google search",
     "Search",
-    "Google"
+    "google scraper",
+    "scraper",
+    "scrape",
+    "web-scraping"
   ],
   "author": "LuanRT",
   "license": "MIT",
