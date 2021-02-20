@@ -5,13 +5,13 @@ GoogleThis is a module that allows you to get the results from a Google search p
 ## Installation
 
 ```bash
-npm install @luanrt/google-this
+npm install googlethis
 ```
 
 ## Usage
 
 ```js
-const googleThis = require('@luanrt/google-this');
+const googleThis = require('googlethis');
 
 googleThis('Minecraft')
    .then((results) => {
