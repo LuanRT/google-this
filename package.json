@@ -1,6 +1,6 @@
 {
   "name": "@luanrt/google-this",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module to get the results from a Google search.",
   "main": "googleThis.js",
   "scripts": {
