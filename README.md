@@ -15,7 +15,7 @@ npm install @luanrt/google-this
 ## Usage
 
 ```js
-const googleThis = require('googlethis');
+const googleThis = require('googlethis'); //const googleThis = require('@luanrt/google-this');
 
 googleThis('Minecraft')
    .then((results) => {
