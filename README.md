@@ -7,6 +7,10 @@ GoogleThis is a module that allows you to get the results from a Google search p
 ```bash
 npm install googlethis
 ```
+Or
+```bash
+npm install @luanrt/google-this
+```
 
 ## Usage
 
