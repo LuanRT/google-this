@@ -1,4 +1,4 @@
-const googleThis = require('./googlethis');
+const googleThis = require('./googleThis');
 
 googleThis('Minecraft')
    .then((results) => {
