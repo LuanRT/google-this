@@ -1,4 +1,5 @@
 # GoogleThis
+[![Build](https://github.com/LuanLRT/google-this/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/LuanLRT/google-this/actions/workflows/node.js.yml)
 
 GoogleThis is a module that allows you to get the results from a Google search programmatically!
 
