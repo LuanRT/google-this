@@ -1,32 +1,32 @@
 {
-  "name": "googlethis",
-  "version": "1.0.1-rm8",
-  "description": "A module to get the results from a Google search.",
-  "main": "googleThis.js",
+  "name": "@luanrt/google-this",
+  "version": "1.0.2",
+  "description": "A module to retrieve the search results and much more from Google.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "html-entities": "^1.3.1",
-    "request": "^2.88.2"
+    "cheerio": "^1.0.0-rc.6",
+    "axios": "^0.21.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https//github.com/LuanLRT/google-this.git"
+    "url": "git+https//github.com/LuanRT/google-this.git"
   },
   "keywords": [
-    "google search",
-    "Search",
-    "google scraper",
+    "google-search",
+    "google-scraper",
+    "google-image-search",
+    "image-search",
+    "gis",
     "scraper",
-    "scrape",
     "web-scraping"
   ],
   "author": "LuanRT",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LuanLRT/google-this/issues"
+    "url": "https://github.com/LuanRT/google-this/issues"
   },
-  "homepage": "https://github.com/LuanLRT/google-this#readme"
+  "homepage": "https://github.com/LuanRT/google-this#readme"
 }
