@@ -1,62 +1,167 @@
-# GoogleThis
-[![Build](https://github.com/LuanLRT/google-this/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/LuanLRT/google-this/actions/workflows/node.js.yml)
+# google-this
 
-GoogleThis is a module that allows you to get the results from a Google search programmatically!
+A module to retrieve search results and much more from Google.
+
+
+### Similar projects
+
+* [playstore-scraper](https://github.com/luanrt/playstore-scraper): a scraper to get search results from Google Play Store.
+
 
 ## Installation
 
 ```bash
 npm install googlethis
 ```
-Or
-```bash
-npm install @luanrt/google-this
-```
 
-## Usage
+## Basic usage
+
+### A simple search:
 
 ```js
-const googleThis = require('googlethis'); //const googleThis = require('@luanrt/google-this');
+var google = require('googlethis');
 
-googleThis('Minecraft')
-   .then((results) => {
-       console.log(results);
-   }).catch ((err) => {
-       console.log('Hm, something went wrong!\n'+err);
-   });
-                       
+google.search('NodeJs best practices').then((res) => {
+    console.log(res.results);
+});
 ```
-
-## Output
-```json
+Output:
+```js
 [
-   {
-      "title":"Minecraft Official Site | Minecraft",
-      "url":"https://www.minecraft.net/en-us/",
-      "description":"Explore new gaming adventures, accessories, & merchandise on the Minecraft Official Site. Buy & download the game here, or check the site for the latest news."
-   },
-   {
-      "title":"Minecraft - Apps on Google Play",
-      "url":"https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=en_US&gl=US",
-      "description":"Explore infinite worlds and build everything from the simplest of homes to the grandest of castles. Play in creative mode with unlimited resources or mine deep<wbr>&nbsp;..."
-   },
-   {
-      "title":"Minecraft - Wikipedia",
-      "url":"https://en.wikipedia.org/wiki/Minecraft",
-      "description":"Minecraft is a sandbox video game developed by Mojang. The game was created by Markus \"Notch\" Persson in the Java programming language. Following&nbsp;..."
-   },
-   {
-      "title":"Official Minecraft Wiki – The Ultimate Resource for Minecraft",
-      "url":"https://minecraft.gamepedia.com/Minecraft_Wiki",
-      "description":"Gameplay involves players interacting with the game world by placing and breaking various types of blocks in a three-dimensional environment. In this&nbsp;..."
-   },
-   {
-      "title":"Minecraft | Code.org",
-      "url":"https://code.org/minecraft",
-      "description":"The new Minecraft Hour of Code tutorial is now available in Minecraft: Education Edition for Windows, Mac, Chromebook, and iPad. Learn the basics of coding&nbsp;..."
-   }
+  {
+    title: 'goldbergyoni/nodebestpractices: The Node.js best practices why a good setup ...',
+    description: "3. Code Style Practices · ✓ 3.1 Use ESLint · ✓ 3.2 Node. · ✓ 3.3 Start a Codeblock's Curly Braces on the Same Line · ✓ 3.4 ..",
+    url: 'https://github.com/goldbergyoni/nodebestpractices'         
+  },
+  {
+    title: 'Node.js Architecture and 12 Best Practices for Node.js Development ...',                  
+    description: 'Aug 20, 2020 — An in-depth walkthrough of the inner working of Node.js, Node.js best practices, why a good setup ...',    
+    url: 'https://scoutapm.com/blog/nodejs-architecture-and-12-best-practices-for-nodejs-development'             
+  },
+  {                                                                       
+    title: 'Best Practices Every Node Developer Should Follow',
+    description: 'Oct 12, 2020 — Save the exact package version to package. · Use a tool to restart your app after every code change · Use ...',
+    url: 'https://livecodestream.dev/post/best-practices-every-node-developer-should-follow/'                                            
+  },                                                                   
+  {
+    title: 'Node.js Best Practices | Codementor',   
+    description: "Aug 29, 2016 — Let's save the world of Node.js projects together! Here are the top 14 Node.js best practices that Node ...",  
+    url: 'https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja'
+  },
+  {
+    title: '24 development practices our NodeJS developers follow - Peerbits',
+    description: 'Start all projects with npm init. Create a new project in Node.js using npm init. Setup . npmrc. Use environment variables. Use environment variables in Node. Use a style guide. Say no to synchronous functions. Handle Errors. Confirm your app automatically restarts. Acquaint yourself with JavaScript best practices.',
+    url: 'https://www.peerbits.com/blog/development-practices-for-nodejs-developers.html/amp'
+  },
+  //...
 ]
 ```
 
+### If you need more than just the search results:
+google-this has the ability to retrieve almost everything a Google search can offer, from featured snippets to knowledge panels, even song lyrics can be retrieved.
+
+P.s.
+Fields like ```title```, ```description``` and ```url``` will always return “n/a” if it is not available. However, fields like ```people_also_ask```, ```top_stories```, ```lyrics```, ```images``` and some others will simply not be included in the response.
+
+Here is what a full response from google-this might look like:
+
+
+```js
+[
+  results: [
+    {
+      title: '...',
+      description: '...',
+      url: '..'
+    },
+    //...
+  ],
+  knowledge_panel: [
+    title: '...',
+    description: '..',
+    url: '..',
+    type: '..',
+    lyrics: '..', 
+    available_on: [...],
+    video: '..',
+    images: [..],
+    // There are more, but I won't list them here for the sake of simplicity, refer to the source code for more info. 
+  ],
+  featured_snippet: [
+    title: '...',
+    description: '....',
+    url: '....'
+  ],
+  top_stories: [ // Google rarely returns these tho 
+    website: '..',
+    snippet: '..',
+    url: '..'
+  ]
+  people_also_ask: [..]
+]
+```
+### What else?
+Well, you can also search images with this module :)
+
+Example:
+```js
+var { search, image } = require('googlethis');
+
+// Simple search:
+image('The Wolf Among Us').then((res) => {
+    console.log(res);
+});
+
+// If you don't want results from specific websites:
+var blocked_domains = {
+  'medibang.com',
+  'pinterest.com'
+}
+
+image('The Wolf Among Us', blocked_domains).then((res) => {
+    console.log(res);
+});
+
+```
+
+It can return up to 15 images. Here's what it looks like:
+```js
+[
+  {
+    url: 'https://upload.wikimedia.org/wikipedia/en/9/96/The_Wolf_Among_Us_cover_art.jpg',
+    width: '321',
+    height: '310',
+    origin: {
+      title: 'The Wolf Among Us - Wikipedia',
+      website: 'https://en.wikipedia.org/wiki/The_Wolf_Among_Us'
+    }
+  },
+  {
+    url: 'https://store-images.s-microsoft.com/image/apps.5089.64565521137234771.d4fa27af-3a00-44af-9927-ce57a7066702.c87b015a-61cf-46d6-a77a-0b8d09279d37',
+    width: '1080',
+    height: '720',
+    origin: {
+      title: 'Buy The Wolf Among Us - Microsoft Store en-CA',
+      website: 'https://www.microsoft.com/en-ca/p/the-wolf-among-us/c02sl8lbs5k2'
+    }
+  },
+  {
+    url: 'https://cdn.vox-cdn.com/thumbor/Zp1L6Vji2NEk0sxmeYmbThbq4CY\\u003d/0x0:1280x720/1200x800/filters:focal(538x258:742x462)/cdn.vox-cdn.com/uploads/chorus_image/image/65898028/69262385_408272906381786_5376154085030363136_n.0.png',
+    width: '800',
+    height: '1200',
+    origin: {
+      title: 'The Wolf Among Us 2 back in development at Telltale - Polygon',
+      website: 'https://www.polygon.com/game-awards-tga/2019/12/12/21011644/the-wolf-among-us-2-telltale-windows-trailer-tga-2019'
+    }
+  },
+  ....
+]
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
 ## License
-[MIT](/LICENSE)
+[MIT](https://choosealicense.com/licenses/mit/)
