@@ -14,7 +14,7 @@ A module to retrieve search results and much more from Google.
 npm install googlethis
 ```
 
-## Basic usage
+## Usage
 
 ### A simple search:
 
