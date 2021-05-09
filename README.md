@@ -1,4 +1,5 @@
 # google-this
+
 [![Build](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg)](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml)
 
 A module to retrieve search results and much more from Google.
