@@ -109,7 +109,7 @@ Here is what a full response from google-this might look like:
     website: '..',
     snippet: '..',
     url: '..'
-  ]
+  ],
   people_also_ask: [..]
 ]
 ```
