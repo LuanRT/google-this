@@ -1,4 +1,4 @@
-var { search, image } = require("../lib/google_this");
+var { search, image } = require("../lib/google_this.js");
 
 // Normal search:
 search("PewDiePie").then((res) => {
