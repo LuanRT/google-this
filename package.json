@@ -1,5 +1,5 @@
 {
-  "name": "@luanrt/google-this",
+  "name": "googlethis",
   "version": "1.0.2",
   "description": "A module to retrieve the search results and much more from Google.",
   "main": "index.js",
