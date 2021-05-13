@@ -111,7 +111,8 @@ Here is what a full response from google-this might look like:
     snippet: '...',
     url: '..'
   ],
-  people_also_ask: [..]
+  people_also_ask: [..],
+  people_also_search_for: [..]
 ]
 ```
 
