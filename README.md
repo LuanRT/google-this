@@ -84,31 +84,31 @@ Here is what a full response from google-this might look like:
 [
   results: [
     {
-      title: '...',
+      title: '..',
       description: '...',
       url: '..'
     },
     //...
   ],
   knowledge_panel: [
-    title: '...',
-    description: '..',
+    title: '..',
+    description: '...',
     url: '..',
     type: '..',
     lyrics: '..',
-    available_on: [...],
+    available_on: [..],
     video: '..',
     images: [..],
     // There are more, but I won't list them here for the sake of simplicity, refer to the source code for more info.
   ],
   featured_snippet: [
-    title: '...',
-    description: '....',
-    url: '....'
+    title: '..',
+    description: '...',
+    url: '..'
   ],
   top_stories: [ // Google rarely returns these tho
     website: '..',
-    snippet: '..',
+    snippet: '...',
     url: '..'
   ],
   people_also_ask: [..]
