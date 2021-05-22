@@ -70,10 +70,13 @@ Output:
 ```
 
 You can also go to the next page for more results:
+
 ```js
-google.search("NodeJs best practices", {
-    page: 2
-  }).then((res) => {
+google
+  .search("NodeJs best practices", {
+    page: 2,
+  })
+  .then((res) => {
     console.log(res.results);
   });
 ```
@@ -114,7 +117,7 @@ Here is what a full response from google-this might look like:
     description: '...',
     url: '..'
   ],
-  dictionary: [ 
+  dictionary: [
     word: '..',
     phonetic: '..',
     audio: '..',
@@ -190,6 +193,7 @@ It can return up to 15 images. Here's what it looks like:
   ....
 ]
 ```
+
 For more information check out the examples file.
 
 ## Contributing
