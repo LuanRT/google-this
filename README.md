@@ -122,7 +122,7 @@ Here is what a full response from google-this might look like:
     phonetic: '..',
     audio: '..',
     definitions: [..]
-  ]
+  ],
   top_stories: [
     website: '..',
     snippet: '...',
