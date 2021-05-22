@@ -7,7 +7,7 @@ A module to retrieve search results and much more from Google.
 ### Similar projects
 
 - [playstore-scraper](https://github.com/luanrt/playstore-scraper): a scraper to get search results from Google Play Store.
-- [lexico-dictionary](https://github.com/LuanRT/lexico-dictionary): a module that scrapes lexico.com to get the meaning of words, examples and pronunciation.
+- [lexico-dictionary](https://github.com/LuanRT/lexico-dictionary): a module that scrapes lexico.com to get the definition of words, examples and pronunciation.
 
 ## Installation
 
@@ -17,12 +17,10 @@ npm install googlethis
 
 ## Usage
 
-### A simple search:
-
 ```js
 var google = require("googlethis");
 
-google.search("NodeJs best practices").then((res) => {
+google.search("Best NodeJs practices").then((res) => {
   console.log(res.results);
 });
 ```
@@ -71,12 +69,21 @@ Output:
 ];
 ```
 
+You can also go to the next page for more results:
+```js
+google.search("NodeJs best practices", {
+    page: 2
+  }).then((res) => {
+    console.log(res.results);
+  });
+```
+
 ### If you need more than just the search results:
 
 google-this has the ability to retrieve almost everything a Google search can offer, from featured snippets to knowledge panels, even song lyrics can be retrieved.
 
 P.s.
-Fields like `title`, `description` and `url` will always return “n/a” if it is not available. However, fields like `people_also_ask`, `top_stories`, `lyrics`, `images` and some others will simply not be included in the response.
+Fields like `title`, `description` and `url` will always return “n/a” if it is not available. However, fields like `people_also_ask`, `top_stories`, `dictionary`, `lyrics`, `images` and some others will simply not be included in the response.
 
 Here is what a full response from google-this might look like:
 
@@ -90,6 +97,7 @@ Here is what a full response from google-this might look like:
     },
     //...
   ],
+  did_you_mean: '..',
   knowledge_panel: [
     title: '..',
     description: '...',
@@ -97,7 +105,7 @@ Here is what a full response from google-this might look like:
     type: '..',
     lyrics: '..',
     available_on: [..],
-    video: '..',
+    platforms: [..],
     images: [..],
     // There are more, but I won't list them here for the sake of simplicity, refer to the source code for more info.
   ],
@@ -106,7 +114,13 @@ Here is what a full response from google-this might look like:
     description: '...',
     url: '..'
   ],
-  top_stories: [ // Google rarely returns these tho
+  dictionary: [ 
+    word: '..',
+    phonetic: '..',
+    audio: '..',
+    definitions: [..]
+  ]
+  top_stories: [
     website: '..',
     snippet: '...',
     url: '..'
@@ -176,6 +190,7 @@ It can return up to 15 images. Here's what it looks like:
   ....
 ]
 ```
+For more information check out the examples file.
 
 ## Contributing
 
