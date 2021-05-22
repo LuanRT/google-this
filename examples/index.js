@@ -1,11 +1,19 @@
-var { search, image } = require("../lib/google_this.js");
+var {
+  search,
+  image,
+  getTopNews
+} = require('../lib/google_this');
 
-// Normal search:
-search("PewDiePie").then((res) => {
-  console.log(res);
-});
+async function start() {
+  const search_results = await search('PewDiePie', {
+    page: 0
+  });
+  console.log(search_results);
 
-// Image Search
-image("The Wolf Among Us").then((res) => {
-  console.log(res);
-});
+  const image_search_results = await image('The Wolf Among Us');
+  console.log(image_search_results);
+
+  const top_news = await getTopNews();
+  console.log(top_news);
+}
+start();
