@@ -153,29 +153,29 @@ It can return up to 15 images. Here's what it looks like:
 ```js
 [
    {
-      "title":"goldbergyoni/nodebestpractices: The Node.js best practices why a good setup ...",
-      "description":"3. Code Style Practices · ✓ 3.1 Use ESLint · ✓ 3.2 Node. · ✓ 3.3 Start a Codeblock's Curly Braces on the Same Line · ✓ 3.4 ..",
-      "url":"https://github.com/goldbergyoni/nodebestpractices"
+      "title" : "goldbergyoni/nodebestpractices: The Node.js best practices why a good setup ...",
+      "description" : "3. Code Style Practices · ✓ 3.1 Use ESLint · ✓ 3.2 Node. · ✓ 3.3 Start a Codeblock's Curly Braces on the Same Line · ✓ 3.4 ..",
+      "url" : "https://github.com/goldbergyoni/nodebestpractices"
    },
    {
-      "title":"Node.js Architecture and 12 Best Practices for Node.js Development ...",
-      "description":"Aug 20, 2020 — An in-depth walkthrough of the inner working of Node.js, Node.js best practices, why a good setup ...",
-      "url":"https://scoutapm.com/blog/nodejs-architecture-and-12-best-practices-for-nodejs-development"
+      "title" : "Node.js Architecture and 12 Best Practices for Node.js Development ...",
+      "description" : "Aug 20, 2020 — An in-depth walkthrough of the inner working of Node.js, Node.js best practices, why a good setup ...",
+      "url" : "https://scoutapm.com/blog/nodejs-architecture-and-12-best-practices-for-nodejs-development"
    },
    {
-      "title":"Best Practices Every Node Developer Should Follow",
-      "description":"Oct 12, 2020 — Save the exact package version to package. · Use a tool to restart your app after every code change · Use ...",
-      "url":"https://livecodestream.dev/post/best-practices-every-node-developer-should-follow/"
+      "title" : "Best Practices Every Node Developer Should Follow",
+      "description" : "Oct 12, 2020 — Save the exact package version to package. · Use a tool to restart your app after every code change · Use ...",
+      "url" : "https://livecodestream.dev/post/best-practices-every-node-developer-should-follow/"
    },
    {
-      "title":"Node.js Best Practices | Codementor",
-      "description":"Aug 29, 2016 — Let's save the world of Node.js projects together! Here are the top 14 Node.js best practices that Node ...",
-      "url":"https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja"
+      "title" : "Node.js Best Practices | Codementor",
+      "description" : "Aug 29, 2016 — Let's save the world of Node.js projects together! Here are the top 14 Node.js best practices that Node ...",
+      "url" : "https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja"
    },
    {
-      "title":"24 development practices our NodeJS developers follow - Peerbits",
-      "description":"Start all projects with npm init. Create a new project in Node.js using npm init. Setup . npmrc. Use environment variables. Use environment variables in Node. Use a style guide. Say no to synchronous functions. Handle Errors. Confirm your app automatically restarts. Acquaint yourself with JavaScript best practices.",
-      "url":"https://www.peerbits.com/blog/development-practices-for-nodejs-developers.html/amp"
+      "title" : "24 development practices our NodeJS developers follow - Peerbits",
+      "description" : "Start all projects with npm init. Create a new project in Node.js using npm init. Setup . npmrc. Use environment variables. Use environment variables in Node. Use a style guide. Say no to synchronous functions. Handle Errors. Confirm your app automatically restarts. Acquaint yourself with JavaScript best practices.",
+      "url" : "https://www.peerbits.com/blog/development-practices-for-nodejs-developers.html/amp"
    },
    //...
 ]
