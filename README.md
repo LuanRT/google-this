@@ -81,56 +81,44 @@ Here is what a full response from google-this might look like:
 
 ```js
 {
-   "results":[
+   "results" : [
       {
-         "title":"..",
-         "description":"...",
-         "url":".."
+         "title" : "..",
+         "description" : "...",
+         "url" : ".."
       },
       //...
    ],
-   "did_you_mean":"..",
-   "knowledge_panel":{
-      "title":"..",
-      "description":"...",
-      "url":"..",
-      "type":"..",
-      "lyrics":"..",
-      "available_on":[
-         ".."
-      ],
-      "platforms":[
-         ".."
-      ],
-      "images":[
-         ".."
-      ]
+   "did_you_mean" : "..",
+   "knowledge_panel" : {
+      "title" : "..",
+      "description" : "...",
+      "url" : "..",
+      "type" : "..",
+      "lyrics" : "..",
+      "available_on" : [...],
+      "platforms" : [...],
+      "images" : [...]
       // there are more, but I won't list them here for the sake of simplicity, refer to the code for more info.
    },
-   "featured_snippet":{
-      "title":"..",
-      "description":"...",
-      "url":".."
+   "featured_snippet" : {
+      "title" : "..",
+      "description" : "...",
+      "url" : ".."
    },
-   "dictionary":{
-      "word":"..",
-      "phonetic":"..",
-      "audio":"..",
-      "definitions":[
-         ".."
-      ]
+   "dictionary" : {
+      "word" : "..",
+      "phonetic" : "..",
+      "audio" : "..",
+      "definitions" : [...]
    },
-   "top_stories":{
-      "website":"..",
-      "snippet":"...",
-      "url":".."
+   "top_stories" : {
+      "website" : "..",
+      "snippet" : "...",
+      "url" : ".."
    },
-   "people_also_ask":[
-      ".."
-   ],
-   "people_also_search_for":[
-      ".."
-   ]
+   "people_also_ask" : [...],
+   "people_also_search_for" : [...]
 }
 ```
 
