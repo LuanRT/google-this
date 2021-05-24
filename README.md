@@ -163,39 +163,34 @@ It can return up to 15 images. Here's what it looks like:
 
 ```js
 [
-  {
-    url:
-      "https://upload.wikimedia.org/wikipedia/en/9/96/The_Wolf_Among_Us_cover_art.jpg",
-    width: "321",
-    height: "310",
-    origin: {
-      title: "The Wolf Among Us - Wikipedia",
-      website: "https://en.wikipedia.org/wiki/The_Wolf_Among_Us",
-    },
-  },
-  {
-    url:
-      "https://store-images.s-microsoft.com/image/apps.5089.64565521137234771.d4fa27af-3a00-44af-9927-ce57a7066702.c87b015a-61cf-46d6-a77a-0b8d09279d37",
-    width: "1080",
-    height: "720",
-    origin: {
-      title: "Buy The Wolf Among Us - Microsoft Store en-CA",
-      website:
-        "https://www.microsoft.com/en-ca/p/the-wolf-among-us/c02sl8lbs5k2",
-    },
-  },
-  {
-    url:
-      "https://cdn.vox-cdn.com/thumbor/Zp1L6Vji2NEk0sxmeYmbThbq4CY\\u003d/0x0:1280x720/1200x800/filters:focal(538x258:742x462)/cdn.vox-cdn.com/uploads/chorus_image/image/65898028/69262385_408272906381786_5376154085030363136_n.0.png",
-    width: "800",
-    height: "1200",
-    origin: {
-      title: "The Wolf Among Us 2 back in development at Telltale - Polygon",
-      website:
-        "https://www.polygon.com/game-awards-tga/2019/12/12/21011644/the-wolf-among-us-2-telltale-windows-trailer-tga-2019",
-    },
-  },
-];
+   {
+      "url":"https://upload.wikimedia.org/wikipedia/en/9/96/The_Wolf_Among_Us_cover_art.jpg",
+      "width":"321",
+      "height":"310",
+      "origin":{
+         "title":"The Wolf Among Us - Wikipedia",
+         "website":"https://en.wikipedia.org/wiki/The_Wolf_Among_Us"
+      }
+   },
+   {
+      "url":"https://store-images.s-microsoft.com/image/apps.5089.64565521137234771.d4fa27af-3a00-44af-9927-ce57a7066702.c87b015a-61cf-46d6-a77a-0b8d09279d37",
+      "width":"1080",
+      "height":"720",
+      "origin":{
+         "title":"Buy The Wolf Among Us - Microsoft Store en-CA",
+         "website":"https://www.microsoft.com/en-ca/p/the-wolf-among-us/c02sl8lbs5k2"
+      }
+   },
+   {
+      "url":"https://cdn.vox-cdn.com/thumbor/Zp1L6Vji2NEk0sxmeYmbThbq4CY\\u003d/0x0:1280x720/1200x800/filters:focal(538x258:742x462)/cdn.vox-cdn.com/uploads/chorus_image/image/65898028/69262385_408272906381786_5376154085030363136_n.0.png",
+      "width":"800",
+      "height":"1200",
+      "origin":{
+         "title":"The Wolf Among Us 2 back in development at Telltale - Polygon",
+         "website":"https://www.polygon.com/game-awards-tga/2019/12/12/21011644/the-wolf-among-us-2-telltale-windows-trailer-tga-2019"
+      }
+   }
+]
 ```
 
 For more information check out the examples file.
