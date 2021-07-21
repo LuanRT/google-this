@@ -170,7 +170,7 @@ start();
 ## What else can it do?
 
 As you may have noticed google-this returns a lot of data. Currently it can parse everything in the knowledge graph, featured snippets and much more. It can also parse Google Dictionary, Google Translator and song lyrics. 
-All you have to do is search something like “define xyz” or “translate x to y” or “xyz song lyrics” and the appropriate fields will appear in the response.
+All you have to do is search something like ```“define xyz”``` or ```“translate x to y”``` or ```“xyz song lyrics”``` and the appropriated fields will appear in the response.
 
 #### Examples:
 
