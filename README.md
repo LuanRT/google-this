@@ -178,7 +178,7 @@ All you have to do is search something like ```“define xyz”``` or ```“tran
 
 ![Knowledge Graph](./images/knowledge_panel.png?raw=true "Google's Knowledge Graph")
 
-Will result in:
+Will look like:
 
 ```js
 {
