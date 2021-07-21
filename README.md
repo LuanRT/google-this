@@ -252,7 +252,7 @@ Will be:
 
 Pretty amazing, isn't it? :D
 
-For more info check out the [examples](https://github.com/LuanRT/google-this/blob/252dfabe13b52da2fbe9f0f46ceea4d2a660796d/examples/index.js) file.
+For more info check out the [examples](https://github.com/LuanRT/google-this/blob/03672c9716557e1048da0deef29326a79f30251e/examples/index.js) file.
 
 ## Extras
 
