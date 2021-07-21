@@ -6,7 +6,7 @@ A module to retrieve organic search results and much more from Google.
 
 ### Similar projects
 
-- [playstore-scraper](https://github.com/luanrt/playstore-scraper): a scraper to get search results from Google Play tesy.
+- [playstore-scraper](https://github.com/luanrt/playstore-scraper): a scraper to get search results from Google Play Store.
 - [lexico-dictionary](https://github.com/LuanRT/lexico-dictionary): a module that scrapes lexico.com to get the definition of words, examples and pronunciation.
 
 ## Installation
