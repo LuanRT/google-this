@@ -1,15 +1,27 @@
-var { search, image, getTopNews } = require("../lib/google_this");
+const google = require("../lib/google_this");
 
 async function start() {
-  const search_results = await search("PewDiePie", {
+  // A simple search
+  const res = await google.search('Stephen Hawking', {
     page: 0,
+    safe: false,
+    additional_params: {
+      hl: 'en',
+    }
   });
-  console.log(search_results);
-
-  const image_search_results = await image("The Wolf Among Us");
-  console.log(image_search_results);
-
-  const top_news = await getTopNews();
-  console.log(top_news);
+  console.log(res);
+  
+  // Image Search
+  const images = await google.image("The Wolf Among Us", { safe: false });
+  console.log(images); 
+ 
+  // Reverse Image Search
+  const reverse = await google.search("https://i.pinimg.com/236x/92/16/d9/9216d9a222ef65eb6eabfff1970180d1.jpg", { ris: true });
+  console.log(reverse.results);
+  
+  // Top news (I'm still testing this)
+  const news = await google.getTopNews();
+  console.log(news);
 }
+
 start();
