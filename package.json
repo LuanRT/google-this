@@ -1,7 +1,7 @@
 {
   "name": "googlethis",
-  "version": "1.1.2",
-  "description": "A module to retrieve the search results and much more from Google.",
+  "version": "1.1.4",
+  "description": "A module to retrieve organic search results and much more from Google.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
