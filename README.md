@@ -24,7 +24,7 @@ const google = require("googlethis");
 async function start() {
   const options = {
     page: 0, 
-    safe: false, // show explicit results?
+    safe: false, // hide explicit results?
     additional_params: { 
       // add additional parameters here, see https://moz.com/blog/the-ultimate-guide-to-the-google-search-parameters and https://www.seoquake.com/blog/google-search-param/
       hl: 'en' 
