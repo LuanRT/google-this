@@ -47,42 +47,74 @@ start();
       {
          "title":"The Walking Dead (Video Game) | Walking Dead Wiki | Fandom",
          "description":"The Walking Dead, also known as The Walking Dead: A Telltale Games ...",
-         "url":"https://walkingdead.fandom.com/wiki/The_Walking_Dead_(Video_Game)"
+         "url":"https://walkingdead.fandom.com/wiki/The_Walking_Dead_(Video_Game)",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/walkingdead.fandom.com/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=walkingdead.fandom.com"
+         }
       },
       {
          "title":"The Walking Dead (video game) - Wikipedia",
          "description":"The Walking Dead is an episodic adventure video game developed and ...",
-         "url":"https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game)"
+         "url":"https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game)",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/en.m.wikipedia.org/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=en.m.wikipedia.org"
+         }
       },
       {
          "title":"The Walking Dead (video game series) - Wikipedia",
          "description":"The Walking Dead is an episodic, graphic adventure video game series developed and published by Telltale Games and Skybound Games, based on The Walking Dead ...",
-         "url":"https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game_series)"
+         "url":"https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game_series)",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/en.m.wikipedia.org/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=en.m.wikipedia.org"
+         }
+      },
+      {
+         "title":"The Walking Dead: The Final Season (Video Game 2018) - IMDb",
+         "description":"The Walking Dead: The Final Season: Directed by Vahram Antonian, Mark Darin, Chris Rebbert, Kent Mudle. With Melissa ...",
+         "url":"https://m.imdb.com/title/tt7211930/",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/m.imdb.com/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=m.imdb.com"
+         }
       },
       {
          "title":"The Walking Dead on Steam",
-         "description":"Apr 24, 2012 — About This Game ... The Walking Dead is a five-part game ...",
-         "url":"https://store.steampowered.com/app/207610/The_Walking_Dead/"
+         "description":"Apr. 24, 2012 — About This Game ... The Walking Dead is a five-part game series set in the same universe as Robert Kirkman' ...",
+         "url":"https://store.steampowered.com/app/207610/The_Walking_Dead/",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/store.steampowered.com/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
+         }
       },
       {
-         "title":"The Walking Dead: The Telltale Definitive Series on Steam",
-         "description":"Oct 29, 2020 — The Walking Dead: The Telltale Definitive Series contains all 4 Seasons, 400 Days, and The Walking Dead: Michonne, which includes over 50 ...",
-         "url":"https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/"
+         "title":"The Walking Dead: The Final Season on Steam",
+         "description":"All this creates the most engaging The Walking Dead game yet. Striking New Visual Style - The all-new Graphic Black art style ...",
+         "url":"https://store.steampowered.com/app/866800/The_Walking_Dead_The_Final_Season/",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/store.steampowered.com/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
+         }
       },
       {
          "title":"The Walking Dead (@TWDGameNews) | Twitter",
-         "description":"The latest Tweets from The Walking Dead (@TWDGameNews). Your best online source about The Walking Dead & The Wolf ...",
-         "url":"https://twitter.com/twdgamenews?lang=en"
-      },
-      {
-         "title":"The Walking Dead (Video Game 2012) - IMDb",
-         "description":"The Walking Dead: Directed by Sean Ainsworth, Nick Herman, Dennis Lenart, Eric Parsons, Jake Rodkin, Sean Vanaman. ...",
-         "url":"https://m.imdb.com/title/tt2006890/"
+         "description":"The latest Tweets from The Walking Dead (@TWDGameNews). Your best online source about The Walking Dead & The Wolf Among Us game.",
+         "url":"https://twitter.com/twdgamenews?lang=en",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/twitter.com/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=twitter.com"
+         }
       },
       {
          "title":"The Walking Dead (TWD) - Games - Skybound Entertainment",
          "description":"Get The Latest News on The Walking Dead (TWD) Games! TWD Video & Board Games from Skybound.",
-         "url":"https://www.skybound.com/the-walking-dead/games"
+         "url":"https://www.skybound.com/the-walking-dead/games",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/www.skybound.com/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=www.skybound.com"
+         }
       }
    ],
    "knowledge_panel":{
@@ -92,9 +124,9 @@ start();
       "initial_release_date":"2012",
       "series":"The Walking Dead",
       "developer":"Telltale Games",
-      "platforms":"Android, PlayStation 4, Xbox One, PlayStation 3, Xbox 360, Nintendo Switch, More",
-      "awards":"VGX Award for Game of the Year, VGX Award for Best Performance by a Human Female,  More",
-      "genres":"Graphic adventure game, Interactive film, Adventure",
+      "composer":"Jared Emerson-Johnson",
+      "platforms":"Android, PlayStation 4, Xbox One, PlayStation 3, Xbox 360, Nintendo Switch, iOS, more",
+      "awards":"VGX Award for Game of the Year, BAFTA Games Award for Story, more",
       "type":"Video game",
       "ratings":[
          {
@@ -103,32 +135,36 @@ start();
          }
       ],
       "images":[
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmU64CRh5_wsF4S-DbpH_C9ozWVRlvZJmguQ&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvrFr-3o2yTiA8DUXgo-53uvBN07NionfQg&s",
+         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUQa_EmZ0pnMkStzGkFYkCWqqkXTRhL7kEg&s",
          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVKcTnZC-Y9HW_E37tgu6vTEZSM4lb0F_DHw&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtcUSzCxQ6AKjV_hNFSyixXoo0No7bUpvnhw&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBrmhOa-2NnQYIfHOzfzZvEZwQAeLBLZGsQ&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoOQkbxKJEboeavLycSjFV5OfGEJaOUsEow&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZHmljt0G_-YgOMOkO4XC0L2VQGsRpgGWoNA&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVpMp057I2xYXyyMR8ZwnHLGFPSURzE5-7Gg&s"
+         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvrFr-3o2yTiA8DUXgo-53uvBN07NionfQg&s",
+         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITB1paL8GBaYHyw5HlPU60pFdnGV09ygGsw&s",
+         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIBbIaCsOB7j-WFYSdjsmTem99Px0UpsrH8A&s",
+         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwOyoVlvDXYBh_pe8BbJHLSuzq76VGwRUWjw&s",
+         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeentvUA6NaUU2lt8U-kKS6vbijZA9H7a8qw&s",
+         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNTRozFnQgRKDsC5aaXj31HvLkcKvroHqExA&s"
       ]
    },
    "featured_snippet":{
-      "title":"n/a",
-      "description":"n/a",
-      "url":"n/a"
+      "title":"N/A",
+      "description":"N/A",
+      "url":"N/A"
    },
    "people_also_ask":[
       "How old is Clementine now?",
+      "Is Telltale Games coming back?",
       "Which Walking Dead game is the first?",
       "Who does Clementine kill?",
-      "Do you need to play Walking Dead michonne?",
-      "the walking dead: the final season",
-      "the walking dead: season two",
-      "Twdg Clementine",
-      "The Walking Dead game Season 5"
+      "The Walking Dead: The Final Season",
+      "The Walking Dead: a new frontier",
+      "The Walking Dead game characters",
+      "The Walking Dead game Season 1"
    ],
    "people_also_search_for":[
+      {
+         "title":"No Time Left",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_wtNr_d0gBzbe7dg0YoVSdvdB7rgweocVYJy5DVnR6ov7V6c8L0BI&s=0"
+      },
       {
          "title":"Game of Thrones",
          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKzG_TUO0Tod17lRMWU7KL2dkwM94vJuNqLftaTiBtTe0S0FodzNVf&s=0"
@@ -136,10 +172,6 @@ start();
       {
          "title":"Guardians of the Gal...",
          "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xJSPBCbODhI0dWbeY4kzGkfskqvQnHzuQX3_&s=0"
-      },
-      {
-         "title":"No Time Left",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_wtNr_d0gBzbe7dg0YoVSdvdB7rgweocVYJy5DVnR6ov7V6c8L0BI&s=0"
       },
       {
          "title":"Back to the Future: Th...",
