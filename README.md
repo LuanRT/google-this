@@ -3,7 +3,7 @@
 [![Build](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f9780c3360c266352378/maintainability)](https://codeclimate.com/github/LuanRT/google-this/maintainability)
 
-A module to retrieve organic search results and much more from Google.
+A simple yet powerful module to retrieve organic search results and much more from Google.
 
 ### Similar projects
 

@@ -1,14 +1,14 @@
 {
   "name": "googlethis",
-  "version": "1.1.4",
-  "description": "A module to retrieve organic search results and much more from Google.",
+  "version": "1.1.5",
+  "description": "A simple yet powerful module to retrieve organic search results and much more from Google.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.6",
     "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
     "replace-special-characters": "1.2.5"
   },
   "repository": {
@@ -35,5 +35,9 @@
   "bugs": {
     "url": "https://github.com/LuanRT/google-this/issues"
   },
-  "homepage": "https://github.com/LuanRT/google-this#readme"
+  "homepage": "https://github.com/LuanRT/google-this#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  }
 }
