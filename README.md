@@ -1,14 +1,14 @@
 # google-this
 
-[![Build](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml)
+[![Build](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg)](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f9780c3360c266352378/maintainability)](https://codeclimate.com/github/LuanRT/google-this/maintainability)
 
 A simple yet powerful module to retrieve organic search results and much more from Google.
 
 ### Similar projects
 
-- [playstore-scraper](https://github.com/luanrt/playstore-scraper): a scraper to get search results and app info from Google Play Store.
-- [lexico-dictionary](https://github.com/LuanRT/lexico-dictionary): simple module that scrapes lexico.com to get definition of words, examples and pronunciation.
+- [playstore-scraper](https://github.com/luanrt/playstore-scraper): a scraper to get search results from Google Play Store.
+- [lexico-dictionary](https://github.com/LuanRT/lexico-dictionary): a module that scrapes lexico.com to get the definition of words, examples and pronunciation.
 
 ## Installation
 
@@ -45,7 +45,7 @@ start();
 {
    "results":[
       {
-         "title":"The Walking Dead (Video Game) | Walking Dead Wiki | Fandom",
+         "title":"The Walking Dead (Video Game)",
          "description":"The Walking Dead, also known as The Walking Dead: A Telltale Games ...",
          "url":"https://walkingdead.fandom.com/wiki/The_Walking_Dead_(Video_Game)",
          "favicons":{
@@ -72,18 +72,9 @@ start();
          }
       },
       {
-         "title":"The Walking Dead: The Final Season (Video Game 2018) - IMDb",
-         "description":"The Walking Dead: The Final Season: Directed by Vahram Antonian, Mark Darin, Chris Rebbert, Kent Mudle. With Melissa ...",
-         "url":"https://m.imdb.com/title/tt7211930/",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/m.imdb.com/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=m.imdb.com"
-         }
-      },
-      {
-         "title":"The Walking Dead on Steam",
-         "description":"Apr. 24, 2012 — About This Game ... The Walking Dead is a five-part game series set in the same universe as Robert Kirkman' ...",
-         "url":"https://store.steampowered.com/app/207610/The_Walking_Dead/",
+         "title":"The Walking Dead: The Telltale Definitive Series on Steam",
+         "description":"Oct 29, 2020 — The Walking Dead: The Telltale Definitive Series contains all 4 Seasons, 400 Days, and The Walking Dead: Michonne, which includes over 50 ...",
+         "url":"https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/",
          "favicons":{
             "high_res":"https://api.faviconkit.com/store.steampowered.com/192",
             "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
@@ -91,7 +82,7 @@ start();
       },
       {
          "title":"The Walking Dead: The Final Season on Steam",
-         "description":"All this creates the most engaging The Walking Dead game yet. Striking New Visual Style - The all-new Graphic Black art style ...",
+         "description":"All this creates the most engaging The Walking Dead game yet. Striking New ...",
          "url":"https://store.steampowered.com/app/866800/The_Walking_Dead_The_Final_Season/",
          "favicons":{
             "high_res":"https://api.faviconkit.com/store.steampowered.com/192",
@@ -99,12 +90,21 @@ start();
          }
       },
       {
-         "title":"The Walking Dead (@TWDGameNews) | Twitter",
-         "description":"The latest Tweets from The Walking Dead (@TWDGameNews). Your best online source about The Walking Dead & The Wolf Among Us game.",
-         "url":"https://twitter.com/twdgamenews?lang=en",
+         "title":"The Walking Dead (Video Game 2012) - IMDb",
+         "description":"The Walking Dead: Directed by Sean Ainsworth, Nick Herman, Dennis Lenart, Eric Parsons, Jake Rodkin, Sean Vanaman. ...",
+         "url":"https://m.imdb.com/title/tt2006890/",
          "favicons":{
-            "high_res":"https://api.faviconkit.com/twitter.com/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=twitter.com"
+            "high_res":"https://api.faviconkit.com/m.imdb.com/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=m.imdb.com"
+         }
+      },
+      {
+         "title":"Telltale's The Walking Dead - Season 1 - Skybound Entertainment",
+         "description":"The Walking Dead is a five-part game series set in the same universe as Robert Kirkman's award-winning comic book series. Play as Lee Everett, a convicted ...",
+         "url":"https://www.skybound.com/telltales-the-walking-dead-season-1",
+         "favicons":{
+            "high_res":"https://api.faviconkit.com/www.skybound.com/192",
+            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=www.skybound.com"
          }
       },
       {
@@ -117,42 +117,67 @@ start();
          }
       }
    ],
-   "knowledge_panel":{
-      "title":"The Walking Dead",
-      "description":"The Walking Dead is an episodic adventure video game developed and published by Telltale Games. It is the first game in the series, which consists of 4 seasons. Based on The Walking Dead comic book series, the game consists of five episodes, released between April and November 2012. Wikipedia",
-      "url":"https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game)",
-      "initial_release_date":"2012",
-      "series":"The Walking Dead",
-      "developer":"Telltale Games",
-      "composer":"Jared Emerson-Johnson",
-      "platforms":"Android, PlayStation 4, Xbox One, PlayStation 3, Xbox 360, Nintendo Switch, iOS, more",
-      "awards":"VGX Award for Game of the Year, BAFTA Games Award for Story, more",
-      "type":"Video game",
+   "knowledge_panel": {
+      "title": "The Walking Dead",
+      "description": "The Walking Dead is an episodic adventure video game developed and published by Telltale Games. It is the first game in the series, which consists of 4 seasons. Based on The Walking Dead comic book series, the game consists of five episodes, released between April and November 2012.",
+      "url": "https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game)",
+      "initial_release_date": "2012",
+      "series": "The Walking Dead",
+      "developer": "Telltale Games",
+      "platforms": "PlayStation 4, Android, Xbox One, PlayStation 3, Xbox 360, Nintendo Switch, More",
+      "awards": "VGX Award for Game of the Year, VGX Award for Best Performance by a Human Female,  More",
+      "genres": "Graphic adventure game, Interactive film, Adventure",
+      "publishers": "Telltale Games, Skybound Games, Howyaknow, LLC",
+      "type": "Video game",
       "ratings":[
          {
             "name":"Steam",
             "rating":"10/10"
          }
       ],
-      "images":[
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUQa_EmZ0pnMkStzGkFYkCWqqkXTRhL7kEg&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVKcTnZC-Y9HW_E37tgu6vTEZSM4lb0F_DHw&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvrFr-3o2yTiA8DUXgo-53uvBN07NionfQg&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITB1paL8GBaYHyw5HlPU60pFdnGV09ygGsw&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIBbIaCsOB7j-WFYSdjsmTem99Px0UpsrH8A&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwOyoVlvDXYBh_pe8BbJHLSuzq76VGwRUWjw&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeentvUA6NaUU2lt8U-kKS6vbijZA9H7a8qw&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNTRozFnQgRKDsC5aaXj31HvLkcKvroHqExA&s"
+      "images": [
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmU64CRh5_wsF4S-DbpH_C9ozWVRlvZJmguQ&s",
+            "source":"https://www.pinterest.com/pin/769693392545268465/"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNTRozFnQgRKDsC5aaXj31HvLkcKvroHqExA&s",
+            "source":"https://store.steampowered.com/app/866800/The_Walking_Dead_The_Final_Season/"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITB1paL8GBaYHyw5HlPU60pFdnGV09ygGsw&s",
+            "source":"https://en.wikipedia.org/wiki/The_Walking_Dead:_A_New_Frontier"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtcUSzCxQ6AKjV_hNFSyixXoo0No7bUpvnhw&s",
+            "source":"https://store.playstation.com/?resolve=EP2026-CUSA12026_00-TWDS400000000EP3"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoOQkbxKJEboeavLycSjFV5OfGEJaOUsEow&s",
+            "source":"https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVKcTnZC-Y9HW_E37tgu6vTEZSM4lb0F_DHw&s",
+            "source":"https://en.wikipedia.org/wiki/The_Walking_Dead_(video_game)"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZHmljt0G_-YgOMOkO4XC0L2VQGsRpgGWoNA&s",
+            "source":"https://www.polygon.com/comics/2020/10/11/21509393/walking-dead-game-clementine-new-story-robert-kirkman-invincible-skybound"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvrFr-3o2yTiA8DUXgo-53uvBN07NionfQg&s",
+            "source":"https://telltale--games.fandom.com/wiki/Minerva_(The_Walking_Dead)"
+         }
       ]
    },
-   "featured_snippet":{
+   "featured_snippet": {
       "title":"N/A",
       "description":"N/A",
       "url":"N/A"
    },
-   "people_also_ask":[
-      "How old is Clementine now?",
-      "Is Telltale Games coming back?",
+   "people_also_ask": [
+      "What race is Clementine TWDG?",
+      "How long is TWDG season 2?",
       "Which Walking Dead game is the first?",
       "Who does Clementine kill?",
       "The Walking Dead: The Final Season",
@@ -160,38 +185,22 @@ start();
       "The Walking Dead game characters",
       "The Walking Dead game Season 1"
    ],
-   "people_also_search_for":[
+   "people_also_search_for": [
       {
-         "title":"No Time Left",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_wtNr_d0gBzbe7dg0YoVSdvdB7rgweocVYJy5DVnR6ov7V6c8L0BI&s=0"
+         "title":"The Wolf Among Us",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgFs6sTHHGkGGNIRhQGZDGcWPHe58clsY5PYJ-DcruOlBj6ZdM-NA&s=0"
       },
       {
-         "title":"Game of Thrones",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKzG_TUO0Tod17lRMWU7KL2dkwM94vJuNqLftaTiBtTe0S0FodzNVf&s=0"
+         "title":"The Walking D...",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdnHz1lzulmMOk9Og95ZIOtZYeE7hICpFjLiw6TPLeCk4rmWGi7KQz&s=0"
       },
       {
-         "title":"Guardians of the Gal...",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xJSPBCbODhI0dWbeY4kzGkfskqvQnHzuQX3_&s=0"
+         "title":"400 Days",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFROcUnJIcJ1wZ6NWKoI8HWd8Sc7Bit44nO-Lt6GsOCIITgYgiXu8&s=0"
       },
       {
-         "title":"Back to the Future: Th...",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWO4NW3GB4TOTAIr19tT9ank02h9lpKEABr4ZZ52F4cB3VcOYdOtvt&s=0"
-      },
-      {
-         "title":"Her Story",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJeKXjj9Nwr0-sJpL5a6YrY2t7P1vTyNOl3saBNIOTsPDxrp0xQM9ndw&s=0"
-      },
-      {
-         "title":"Until Dawn",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk_V2rpYv-uxX9iBQRvesqslm0RQyPiCvXJH2mqrKYId5frNk_KGOo&s=0"
-      },
-      {
-         "title":"Metal Gear Solid 4: G...",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCjlTxFMIicoB6cf1-jU7NQ_t-VmYUC5odE2xO-zwVqXKOpJ51csVS&s=0"
-      },
-      {
-         "title":"Night Trap",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBJZxuw2oVSK1DUChLRyelrVeQ2z79A7zqVx41pk63_b2e2b_4G0fF&s=0"
+         "title":"The Walking D...",
+         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN0iib2gjyjjcQn695ce3hXB4BssAj-lOmXIbp__--QB9Gk-ahA5qB&s=0"
       }
    ]
 }
@@ -209,7 +218,7 @@ All you have to do is search something like ```“define xyz”``` or ```“tran
 
 > Knowledge Graph:
 
-![Knowledge Graph](./images/knowledge_panel.png?raw=true "Google's Knowledge Graph")
+![Knowledge Graph](https://raw.githubusercontent.com/LuanRT/google-this/main/images/knowledge_panel.png "Google's Knowledge Graph")
 
 Will look like:
 
@@ -218,23 +227,106 @@ Will look like:
    //....
    "knowledge_panel":{
       "title":"Stephen Hawking",
-      "description":"Stephen William Hawking CH CBE FRS FRSA was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge at the time of his death. Wikipedia",
+      "description":"Stephen William Hawking CH CBE FRS FRSA was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge at the time of his death.",
       "url":"https://en.m.wikipedia.org/wiki/Stephen_Hawking",
       "born":"January 8, 1942, Oxford, United Kingdom",
       "died":"March 14, 2018, Cambridge, United Kingdom",
       "spouse":"Elaine Mason (m. 1995–2006), Jane Hawking (m. 1965–1995)",
-      "movies_and_tv_shows":"Hawking, A Brief History of TIme, Into the Universe With Stephen Hawking,  More",
-      "children":"Timothy Hawking, Lucy Hawking, Robert Hawking",
+      "children":"Timothy Hawking, Robert Hawking, Lucy Hawking",
       "type":"English theoretical physicist",
+      "books":[
+         {
+            "title":"A Brief History of Time",
+            "year":"1988"
+         },
+         {
+            "title":"Brief Answers to the Big Questions",
+            "year":"2018"
+         },
+         {
+            "title":"The Grand Design",
+            "year":"2010"
+         },
+         {
+            "title":"The Theory of Everything",
+            "year":"2002"
+         },
+         {
+            "title":"A Briefer History of Time",
+            "year":"2005"
+         },
+         {
+            "title":"The Universe in a Nutshell",
+            "year":"2001"
+         },
+         {
+            "title":"My Brief History",
+            "year":"2013"
+         }
+      ],
+      "tv_shows_and_movies":[
+         {
+            "title":"Hawking",
+            "year":"2013"
+         },
+         {
+            "title":"A Brief History of Time",
+            "year":"1991"
+         },
+         {
+            "title":"Into the Universe With Stephen Hawking",
+            "year":"2010"
+         },
+         {
+            "title":"Genius by Stephen Hawking",
+            "year":"2016"
+         },
+         {
+            "title":"Pope Francis: A Man of His Word",
+            "year":"2018"
+         },
+         {
+            "title":"Stephen Hawking's Universe",
+            "year":"1997"
+         },
+         {
+            "title":"Futurama: The Beast with a Billion Backs",
+            "year":"2008"
+         }
+      ],
       "images":[
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo1y6C46Dna993Bw7iIztiiZOj5WfA54SpQ&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhXQYMTZibjbSZtBUW1Df0Gfj_hC2yUe-VXg&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBobu5FJNK-ODDQ460gl3hXkCbG8tra6lrwA&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpiLDQRs5ooaW-YS-n_Nx3tcO2iZZdbPlMfg&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5TlacgKOWalH1VyyS2eYCXrANh8uIB3odGw&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEVmJ4x1DnAIzJhct6guTBwwbSgs5m1O-Twg&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvaqvu6ndURMzPSYX9ZnTWVnnsKBmZybARQ&s",
-         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNu12K_vNhnXcjhp6rrnmDo_S-f7IocPjUeg&s"
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT802HAtAk2bvdBUxv_9kx01sK6n-kfi3_Y5g&s",
+            "source":"https://veja.abril.com.br/ciencia/5-livros-escritos-por-stephen-hawking-que-voce-precisa-conhecer/"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfAJ--Id4nIn8sk5QqpsTYpn0tsZB9OuBXiw&s",
+            "source":"https://www.hypeness.com.br/2021/07/stephen-hawking-estava-certo-em-previsao-de-50-anos-atras-sobre-buracos-negros/"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYaWKY1Pby_eis_ddJrVMmujSTu4ioLwufQ&s",
+            "source":"https://www.bbc.com/portuguese/noticias/2016/01/160119_stephen_hawking_gol_contra_fn"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_tU5FlUgRcbfY4_aLVzoeIivBdMsgAZHWPw&s",
+            "source":"https://www.rfi.fr/br/ciencias/20180314-fisico-stephen-hawking-perde-sua-ultima-batalha"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYkD1N9os-JicVdCKA936wCtp7-bfJiPncgQ&s",
+            "source":"https://exame.com/ciencia/4-teorias-de-stephen-hawking/"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtF7x7aywTJ9SpKgg8SpYh5u-IK7EL61jxg&s",
+            "source":"https://www.biography.com/scientist/stephen-hawking"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTomW_Gqbo4yO2VLNKtmJoitRBlAs0Wb13JUw&s",
+            "source":"https://agenciaade.com.br/blog/a-vida-de-stephen-hawking/"
+         },
+         {
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85qfXZHY0Q-EZILyqxLSUqDFwvjRWGdlQng&s",
+            "source":"https://www.bbc.com/portuguese/geral-57750438"
+         }
       ]
    }
 }
@@ -242,7 +334,7 @@ Will look like:
 
 >   Google Translator:
 
-![Google Translator](./images/google_translator.png?raw=true "Google Translator")
+![Google Translator](https://raw.githubusercontent.com/LuanRT/google-this/main/images/google_translator.png "Google Translator")
 
 Will be:
 
@@ -260,7 +352,7 @@ Will be:
 
 > Google Dictionary:
 
-![Google Dictionary](./images/google_dictionary.png?raw=true "Google Dictionary")
+![Google Dictionary](https://raw.githubusercontent.com/LuanRT/google-this/b25bc842de3e8b791b265d3ca6b12cb25ce06772/images/google_dictionary.png "Google Dictionary")
 
 ↓↓↓
 
