@@ -1,6 +1,6 @@
 {
   "name": "googlethis",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "A simple yet powerful module to retrieve organic search results and much more from Google.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.6",
-    "replace-special-characters": "1.2.5"
+    "replace-special-characters": "1.2.5",
+    "user-agents": "^1.0.784"
   },
   "repository": {
     "type": "git",
