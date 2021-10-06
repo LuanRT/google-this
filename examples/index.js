@@ -19,7 +19,7 @@ async function start() {
   const reverse = await google.search("https://i.pinimg.com/236x/92/16/d9/9216d9a222ef65eb6eabfff1970180d1.jpg", { ris: true });
   console.info('Reverse Image Search:', reverse.results);
   
-  // Top news (I'm still testing this)
+  // Top news
   const news = await google.getTopNews();
   console.info('Google Top News:', news);
 }
