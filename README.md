@@ -7,8 +7,8 @@ A simple yet powerful module to retrieve organic search results and much more fr
 
 ### Similar projects
 
+- [YouTube.js](https://github.com/LuanRT/YouTube.js): An object-oriented wrapper around the Innertube API, which is what YouTube itself uses on its app and website.
 - [playstore-scraper](https://github.com/luanrt/playstore-scraper): a scraper to get search results and app info from Google Play Store.
-- [lexico-dictionary](https://github.com/LuanRT/lexico-dictionary): simple module that scrapes lexico.com to get definition of words, examples and pronunciation.
 
 ## Installation
 
