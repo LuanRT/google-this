@@ -1,6 +1,8 @@
 # google-this
 
 [![Build](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg)](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml)
+[![NPM](https://img.shields.io/npm/v/googlethis?color=%232)](https://www.npmjs.com/package/googlethis)
+[![Downloads](https://img.shields.io/npm/dm/googlethis?style=flat)]()
 [![Maintainability](https://api.codeclimate.com/v1/badges/f9780c3360c266352378/maintainability)](https://codeclimate.com/github/LuanRT/google-this/maintainability)
 
 A simple yet powerful module to retrieve organic search results and much more from Google.
