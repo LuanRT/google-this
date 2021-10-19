@@ -177,6 +177,7 @@ start();
       "description":"N/A",
       "url":"N/A"
    },
+   "top_stories": [],
    "people_also_ask": [
       "What race is Clementine TWDG?",
       "How long is TWDG season 2?",
@@ -241,36 +242,9 @@ Will look like:
             "title":"A Brief History of Time",
             "year":"1988"
          },
-         {
-            "title":"Brief Answers to the Big Questions",
-            "year":"2018"
-         },
-         {
-            "title":"The Grand Design",
-            "year":"2010"
-         },
-         {
-            "title":"The Theory of Everything",
-            "year":"2002"
-         },
-         {
-            "title":"A Briefer History of Time",
-            "year":"2005"
-         },
-         {
-            "title":"The Universe in a Nutshell",
-            "year":"2001"
-         },
-         {
-            "title":"My Brief History",
-            "year":"2013"
-         }
+         //...
       ],
       "tv_shows_and_movies":[
-         {
-            "title":"Hawking",
-            "year":"2013"
-         },
          {
             "title":"A Brief History of Time",
             "year":"1991"
@@ -278,57 +252,15 @@ Will look like:
          {
             "title":"Into the Universe With Stephen Hawking",
             "year":"2010"
-         },
-         {
-            "title":"Genius by Stephen Hawking",
-            "year":"2016"
-         },
-         {
-            "title":"Pope Francis: A Man of His Word",
-            "year":"2018"
-         },
-         {
-            "title":"Stephen Hawking's Universe",
-            "year":"1997"
-         },
-         {
-            "title":"Futurama: The Beast with a Billion Backs",
-            "year":"2008"
-         }
+         }, 
+         //...
       ],
       "images":[
          {
             "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT802HAtAk2bvdBUxv_9kx01sK6n-kfi3_Y5g&s",
             "source":"https://veja.abril.com.br/ciencia/5-livros-escritos-por-stephen-hawking-que-voce-precisa-conhecer/"
          },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfAJ--Id4nIn8sk5QqpsTYpn0tsZB9OuBXiw&s",
-            "source":"https://www.hypeness.com.br/2021/07/stephen-hawking-estava-certo-em-previsao-de-50-anos-atras-sobre-buracos-negros/"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYaWKY1Pby_eis_ddJrVMmujSTu4ioLwufQ&s",
-            "source":"https://www.bbc.com/portuguese/noticias/2016/01/160119_stephen_hawking_gol_contra_fn"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_tU5FlUgRcbfY4_aLVzoeIivBdMsgAZHWPw&s",
-            "source":"https://www.rfi.fr/br/ciencias/20180314-fisico-stephen-hawking-perde-sua-ultima-batalha"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYkD1N9os-JicVdCKA936wCtp7-bfJiPncgQ&s",
-            "source":"https://exame.com/ciencia/4-teorias-de-stephen-hawking/"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtF7x7aywTJ9SpKgg8SpYh5u-IK7EL61jxg&s",
-            "source":"https://www.biography.com/scientist/stephen-hawking"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTomW_Gqbo4yO2VLNKtmJoitRBlAs0Wb13JUw&s",
-            "source":"https://agenciaade.com.br/blog/a-vida-de-stephen-hawking/"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85qfXZHY0Q-EZILyqxLSUqDFwvjRWGdlQng&s",
-            "source":"https://www.bbc.com/portuguese/geral-57750438"
-         }
+         //...
       ]
    }
 }
