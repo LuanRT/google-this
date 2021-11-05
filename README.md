@@ -2,7 +2,8 @@
 
 [![Build](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg)](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml)
 [![NPM](https://img.shields.io/npm/v/googlethis?color=%232)](https://www.npmjs.com/package/googlethis)
-[![Downloads](https://img.shields.io/npm/dm/googlethis?style=flat)]()
+[![Downloads](https://img.shields.io/npm/dm/googlethis?style=flat)][![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLuanRT%2Fgoogle-this.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLuanRT%2Fgoogle-this?ref=badge_shield)
+()
 [![Maintainability](https://api.codeclimate.com/v1/badges/f9780c3360c266352378/maintainability)](https://codeclimate.com/github/LuanRT/google-this/maintainability)
 
 A simple yet powerful module to retrieve organic search results and much more from Google.
@@ -528,3 +529,5 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLuanRT%2Fgoogle-this.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLuanRT%2Fgoogle-this?ref=badge_large)
