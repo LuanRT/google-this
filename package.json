@@ -1,6 +1,6 @@
 {
   "name": "googlethis",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "A simple yet powerful module to retrieve organic search results and much more from Google.",
   "main": "index.js",
   "scripts": {
