@@ -1,10 +1,10 @@
 {
   "name": "googlethis",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A simple yet powerful module to retrieve organic search results and much more from Google.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "dependencies": {
     "axios": "^0.21.1",
