@@ -1,1 +1,1 @@
-module.exports = require("./lib/google_this");
+module.exports = require('./lib/googlethis');
