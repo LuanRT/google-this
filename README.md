@@ -1,17 +1,17 @@
-# google-this
+<h1 align="center">Google This</h1>
+<p align="center"><i>A simple yet powerful module to retrieve organic search results and much more from Google.</i><p>
 
-[![Build](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg)](https://github.com/LuanRT/google-this/actions/workflows/node.js.yml)
-[![NPM](https://img.shields.io/npm/v/googlethis?color=%232)](https://www.npmjs.com/package/googlethis)
-[![Downloads](https://img.shields.io/npm/dm/googlethis?style=flat)]()
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLuanRT%2Fgoogle-this.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLuanRT%2Fgoogle-this?ref=badge_shield)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f9780c3360c266352378/maintainability)](https://codeclimate.com/github/LuanRT/google-this/maintainability)
-
-A simple yet powerful module to retrieve organic search results and much more from Google.
+<p align="center">
+<img src="https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg">
+<img src="https://img.shields.io/npm/v/googlethis?color=%232">
+<a href="https://www.codefactor.io/repository/github/luanrt/google-this"><img src="https://www.codefactor.io/repository/github/luanrt/google-this/badge" alt="CodeFactor" /></a>
+<img src="https://img.shields.io/npm/dm/googlethis?style=flat">
+</p>
 
 ### Similar projects
 
-- [YouTube.js](https://github.com/LuanRT/YouTube.js): An object-oriented wrapper around the Innertube API, which is what YouTube itself uses on its app and website.
-- [playstore-scraper](https://github.com/luanrt/playstore-scraper): a scraper to get search results and app info from Google Play Store.
+- [YouTube.js](https://github.com/LuanRT/YouTube.js): Full-featured wrapper around YouTube's private API.
+- [playstore-scraper](https://github.com/luanrt/playstore-scraper): A simple module to get search results and app info from Google Play Store.
 
 ## Installation
 
@@ -22,7 +22,7 @@ npm install googlethis
 ## Usage
 
 ```js
-const google = require("googlethis");
+const google = require('googlethis');
 
 async function start() {
   const options = {
@@ -215,8 +215,8 @@ start();
 
 ## What else can it do?
 
-As you may have noticed google-this returns a lot of data. Currently it can parse everything in the knowledge graph, featured snippets and much more. It can also parse Google Dictionary, Google Translator and song lyrics. 
-All you have to do is search something like ```“define xyz”``` or ```“translate x to y”``` or ```“xyz song lyrics”``` and the appropriated fields will appear in the response.
+As you may have noticed, the library returns a lot of data. Currently it can parse everything from the knowledge graph, featured snippets and much more such as Google Dictionary, Google Translator and song lyrics. 
+All you have to do is search something along the lines of; ```“define xyz”```, ```“translate x to y”``` or ```“xyz song lyrics”``` and the appropriated fields will appear in the response.
 
 #### Examples:
 
@@ -314,22 +314,22 @@ Pretty amazing, isn't it? :D
 
 For more info check out the [examples](https://github.com/LuanRT/google-this/blob/03672c9716557e1048da0deef29326a79f30251e/examples/index.js) file.
 
-## Extras
+## Image Search
 
-If that's not enough google-this has the ability to search for images and do reverse image search!
+It is also possible to search for images and even do reverse image search:
 
 Check it out:
 
  ```js
-const google = require("googlethis");
+const google = require('googlethis');
 
 async function start() {
   // Image Search
-  const images = await google.image("The Wolf Among Us", { safe: false });
+  const images = await google.image('The Wolf Among Us', { safe: false });
   console.log(images); 
   
   // Reverse Image Search
-  const reverse = await google.search("https://i.pinimg.com/236x/92/16/d9/9216d9a222ef65eb6eabfff1970180d1.jpg", { ris: true });
+  const reverse = await google.search('https://i.pinimg.com/236x/92/16/d9/9216d9a222ef65eb6eabfff1970180d1.jpg', { ris: true });
   console.log(reverse.results);
 }
 
