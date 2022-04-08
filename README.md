@@ -34,7 +34,7 @@ async function start() {
     }
   }
   
-  const response = await google.search("TWDG", options);
+  const response = await google.search('TWDG', options);
   console.log(response); 
 }
 
@@ -215,7 +215,7 @@ start();
 
 ## What else can it do?
 
-As you may have noticed, the library returns a lot of data. Currently it can parse everything from the knowledge graph, featured snippets and much more such as Google Dictionary, Google Translator and song lyrics. 
+As you can see, the library returns a lot of data. Currently it can parse everything from the knowledge graph, featured snippets and much more such as Google Dictionary, Google Translate and song lyrics. 
 All you have to do is search something along the lines of; ```“define xyz”```, ```“translate x to y”``` or ```“xyz song lyrics”``` and the appropriated fields will appear in the response.
 
 #### Examples:
