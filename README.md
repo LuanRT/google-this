@@ -4,14 +4,23 @@
 <p align="center">
 <img src="https://github.com/LuanRT/google-this/actions/workflows/node.js.yml/badge.svg">
 <img src="https://img.shields.io/npm/v/googlethis?color=%232">
-<a href="https://www.codefactor.io/repository/github/luanrt/google-this"><img src="https://www.codefactor.io/repository/github/luanrt/google-this/badge" alt="CodeFactor" /></a>
+<a href="https://www.codefactor.io/repository/github/luanrt/google-this">
+<img src="https://www.codefactor.io/repository/github/luanrt/google-this/badge" alt="CodeFactor"/>
+</a>
 <img src="https://img.shields.io/npm/dm/googlethis?style=flat">
+<a href="https://saythanks.io/to/LuanRT">
+<img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg">
+</a>
 </p>
 
-### Similar projects
+<p align="center">
+<a href="#installation">Installation</a> -
+<a href="#usage">Getting Started</a> -
+<a href="#image-search">Image Search</a> -
+<a href="#related-projects">Related Projects</a> -
+<a href="#see-also">See Also</a>
+</p>
 
-- [YouTube.js](https://github.com/LuanRT/YouTube.js): Full-featured wrapper around YouTube's private API.
-- [playstore-scraper](https://github.com/luanrt/playstore-scraper): A simple module to get search results and app info from Google Play Store.
 
 ## Installation
 
@@ -519,6 +528,14 @@ start();
 
 </p>
 </details>  
+
+## See Also
+
+- [YouTube.js](https://github.com/LuanRT/YouTube.js): Full-featured wrapper around YouTube's private API.
+- [PlaystoreScraper](https://github.com/luanrt/playstore-scraper): A simple module to get search results and app info from Google Play Store.
+
+## Related Projects
+- [GoogleThis by Tokipudi](https://github.com/Tokipudi/GoogleThis): A Discord bot meant to integrate features from this library.
 
 ## Contributing
 
