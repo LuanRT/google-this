@@ -1,4 +1,4 @@
-const google = require("../lib/google_this");
+const google = require('../lib/google_this');
 
 async function start() {
   // A simple search
@@ -12,11 +12,11 @@ async function start() {
   console.info('Search Results:', res);
   
   // Image Search
-  const images = await google.image("The Wolf Among Us", { safe: false });
+  const images = await google.image('The Wolf Among Us', { safe: false });
   console.info('Image Search:', images); 
  
   // Reverse Image Search
-  const reverse = await google.search("https://i.pinimg.com/236x/92/16/d9/9216d9a222ef65eb6eabfff1970180d1.jpg", { ris: true });
+  const reverse = await google.search('https://i.pinimg.com/236x/92/16/d9/9216d9a222ef65eb6eabfff1970180d1.jpg', { ris: true });
   console.info('Reverse Image Search:', reverse.results);
    
   const news = await google.getTopNews();

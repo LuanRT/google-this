@@ -1,0 +1,6 @@
+.git
+.github
+images/
+test/
+coverage/
+node_modules/
