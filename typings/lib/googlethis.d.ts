@@ -13,6 +13,8 @@ export function getTopNews(): Promise<{
  * @param {boolean} [options.safe] - Safe search
  * @param {number} [options.page] - Pagination
  * @param {object} [options.additional_params] - Parameters that will be passed to Google
+ *
+ * @returns
  */
 export function search(query: string, options?: {
     ris?: boolean;
@@ -36,6 +38,8 @@ export function search(query: string, options?: {
  * @param {boolean} [options.safe] - Safe search
  * @param {object} [options.additional_params] - Parameters that will be passed to Google
  * @param {Array.<string>} [options.exclude_domains] - Domains that should be blocked
+ *
+ * @returns
  */
 export function image(query: string, options?: {
     safe?: boolean;
