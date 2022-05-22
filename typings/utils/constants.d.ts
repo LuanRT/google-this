@@ -22,10 +22,12 @@ export namespace SELECTORS {
     const KNO_PANEL_SONG_LYRICS: string;
     const KNO_PANEL_AVAILABLE_ON: string;
     const KNO_PANEL_IMAGES: string;
+    const KNO_PANEL_SONGS: string;
     const KNO_PANEL_BOOKS: string;
     const KNO_PANEL_TV_SHOWS_AND_MOVIES: string;
     const KNO_PANEL_FILM_GOOGLEUSERS_RATING: string;
     const KNO_PANEL_FILM_RATINGS: string[];
+    const VIDEOS: string;
     const FEATURED_SNIPPET_TITLE: string[];
     const FEATURED_SNIPPET_DESC: string[];
     const FEATURED_SNIPPET_URL: string;

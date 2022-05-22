@@ -23,6 +23,7 @@ export function search(query: string, options?: {
     additional_params?: object;
 }): Promise<{
     results: any[];
+    videos: any[];
     did_you_mean: string;
     knowledge_panel: {};
     featured_snippet: {};

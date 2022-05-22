@@ -1,9 +1,8 @@
-export function SearchError(message: any, info: any): void;
-export class SearchError {
+export class SearchError extends Error {
     constructor(message: any, info: any);
     info: any;
-    stack: string;
-    constructor: typeof SearchError;
+    date: Date;
+    version: any;
 }
 /**
  * Returns headers with a random user agent.
@@ -11,7 +10,9 @@ export class SearchError {
  * @param {boolean} is_mobile
  * @returns {string}
  */
-export function getHeaders(is_mobile: boolean): string;
+export function getHeaders(options?: {
+    mobile: boolean;
+}): string;
 /**
  * Gets a string between two delimiters.
  *

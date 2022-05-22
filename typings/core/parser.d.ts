@@ -3,7 +3,7 @@ declare class Parser {
     constructor(data: any);
     data: any;
     $: Cheerio.CheerioAPI;
-    getOrganicResults(): {
+    get organic_results(): {
         title: string;
         description: string;
         url: string;
@@ -12,7 +12,7 @@ declare class Parser {
             low_res: string;
         };
     }[];
-    getKnowledgeGraph(): {
+    get knowledge_graph(): {
         title: string;
         description: string;
         url: string;
@@ -32,23 +32,34 @@ declare class Parser {
             url: string;
             source: string;
         }[];
+        songs: {
+            title: string;
+            album: string;
+        }[];
         demonstration: string;
     };
-    getFeaturedSnippet(): {
+    get videos(): {
+        id: string;
+        url: string;
+        title: string;
+        author: string;
+        duration: string;
+    }[];
+    get featured_snippet(): {
         title: string;
         description: string;
         url: string;
     };
-    getDidYouMean(): string;
-    getTopStories(): {
+    get did_you_mean(): string;
+    get top_stories(): {
         description: string;
         url: string;
     }[];
-    getTime(): {
+    get time(): {
         hours: string;
         date: string;
     };
-    getWeather(): {
+    get weather(): {
         location: string;
         forecast: string;
         precipitation: string;
@@ -56,25 +67,25 @@ declare class Parser {
         temperature: string;
         wind: string;
     };
-    getLocation(date: any): {
+    get location(): {
         title: string;
         distance: string;
         map: string;
     };
-    getTranslation(): {
+    get translation(): {
         source_language: string;
         target_language: string;
         source_text: string;
         target_text: string;
     };
-    getDictionary(): {
+    get dictionary(): {
         word: string;
         phonetic: string;
         audio: string;
         definitions: string[];
         examples: string[];
     };
-    getConverters(): {
+    get converters(): {
         input: string;
         output: string;
         formula: string;
@@ -89,8 +100,8 @@ declare class Parser {
         };
         formula?: undefined;
     };
-    getPaa(): any[];
-    getPas(): {
+    get paa(): any[];
+    get pas(): {
         title: string;
         thumbnail: string;
     }[];

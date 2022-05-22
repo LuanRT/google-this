@@ -1,2 +1,2 @@
-declare const _exports: typeof import("./lib/googlethis");
+declare const _exports: typeof import("./core/main");
 export = _exports;
