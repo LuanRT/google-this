@@ -2,7 +2,7 @@
   "name": "googlethis",
   "version": "1.2.9",
   "description": "A simple yet powerful module to retrieve organic search results and much more from Google.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "LuanRT <luan.lrt4@gmail.com> (https://github.com/LuanRT)",
   "funding": "https://ko-fi.com/luanrt",
   "license": "MIT",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.6",
+    "cheerio": "1.0.0-rc.10",
     "replace-special-characters": "1.2.5",
     "unraw": "^2.0.1",
     "user-agents": "^1.0.784"
