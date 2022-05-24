@@ -1,7 +1,10 @@
 /**
  * Retrieves news from Google.
+ *
+ * @param {string} [language] - Two digits language code.
+ * @param {string} [region] - Two digits region code.
  */
-export function getTopNews(): Promise<{
+export function getTopNews(language?: string, region?: string): Promise<{
     headline_stories: any[];
 }>;
 /**
