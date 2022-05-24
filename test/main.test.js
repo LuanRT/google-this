@@ -19,7 +19,7 @@ describe('GoogleThis Tests', () => {
   });
   
   it('Should retrieve top news', async () => {
-    const news = await google.getTopNews();
+    const news = await google.getTopNews('en', 'AU');
     expect(news.headline_stories).not.toHaveLength(0);
   });
 });
