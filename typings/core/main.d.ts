@@ -1,11 +1,19 @@
 /**
  * Retrieves news from Google.
  *
- * @param {string} [language] - Two digits language code.
- * @param {string} [region] - Two digits region code.
+ * @param {string} [language] - two digits language code.
+ * @param {string} [region] - two digits region code.
+ *
+ * @returns {Promise.<{ headline_stories: { title: string; url: string; image: string; published: string; by: string; }[] }>}
  */
 export function getTopNews(language?: string, region?: string): Promise<{
-    headline_stories: any[];
+    headline_stories: {
+        title: string;
+        url: string;
+        image: string;
+        published: string;
+        by: string;
+    }[];
 }>;
 /**
  * Search a given query on Google.
@@ -17,7 +25,15 @@ export function getTopNews(language?: string, region?: string): Promise<{
  * @param {number} [options.page] - Pagination
  * @param {object} [options.additional_params] - Parameters that will be passed to Google
  *
- * @returns
+ * @returns {Promise.<{ results: { title: string; description: string; url: string; favicons: { high_res: string; low_res: string } }[];
+ * videos: { id: string; url: string; title: string; author: string; duration: string; }[]; did_you_mean?: string; knowledge_panel: { title: string; description: string; url: string; };
+ * featured_snippet: { title: string; description: string; url: string; }; top_stories: { description: string; url: string; }[]; people_also_ask: string[]; people_also_search_for: { title: string; thumbnail: string; }[];
+ * unit_converter?: { input: string; output: string; formula: string; } | { input: { name: string; value: string; }; output: { name: string; value: string } };
+ * dictionary?: { word: string; phonetic: string; audio: string; definitions: string[]; examples: string[]; };
+ * translation?: { source_language: string; target_language: string; source_text: string; target_text: string; };
+ * weather?: { location: string; forecast: string; precipitation: string; humidity: string; temperature: string; wind: string; };
+ * location?: { title: string; distance: string; map: string; };
+ * time?: { date: string; hours: string; }; }>}
  */
 export function search(query: string, options?: {
     ris?: boolean;
@@ -25,36 +41,119 @@ export function search(query: string, options?: {
     page?: number;
     additional_params?: object;
 }): Promise<{
-    results: any[];
-    videos: any[];
-    did_you_mean: string;
-    knowledge_panel: {};
-    featured_snippet: {};
-    top_stories: any[];
-    people_also_ask: any[];
-    people_also_search_for: any[];
+    results: {
+        title: string;
+        description: string;
+        url: string;
+        favicons: {
+            high_res: string;
+            low_res: string;
+        };
+    }[];
+    videos: {
+        id: string;
+        url: string;
+        title: string;
+        author: string;
+        duration: string;
+    }[];
+    did_you_mean?: string;
+    knowledge_panel: {
+        title: string;
+        description: string;
+        url: string;
+    };
+    featured_snippet: {
+        title: string;
+        description: string;
+        url: string;
+    };
+    top_stories: {
+        description: string;
+        url: string;
+    }[];
+    people_also_ask: string[];
+    people_also_search_for: {
+        title: string;
+        thumbnail: string;
+    }[];
+    unit_converter?: {
+        input: string;
+        output: string;
+        formula: string;
+    } | {
+        input: {
+            name: string;
+            value: string;
+        };
+        output: {
+            name: string;
+            value: string;
+        };
+    };
+    dictionary?: {
+        word: string;
+        phonetic: string;
+        audio: string;
+        definitions: string[];
+        examples: string[];
+    };
+    translation?: {
+        source_language: string;
+        target_language: string;
+        source_text: string;
+        target_text: string;
+    };
+    weather?: {
+        location: string;
+        forecast: string;
+        precipitation: string;
+        humidity: string;
+        temperature: string;
+        wind: string;
+    };
+    location?: {
+        title: string;
+        distance: string;
+        map: string;
+    };
+    time?: {
+        date: string;
+        hours: string;
+    };
 }>;
 /**
  * Google image search.
  *
- * @param {string} query - Search query
- * @param {object} [options] - Search options
- * @param {boolean} [options.safe] - Safe search
- * @param {object} [options.additional_params] - Parameters that will be passed to Google
- * @param {Array.<string>} [options.exclude_domains] - Domains that should be blocked
+ * @param {string} query - search query
+ * @param {object} [options] - search options
+ * @param {boolean} [options.safe] - safe search
+ * @param {object} [options.additional_params] - additional parameters
  *
- * @returns
+ * @returns {Promise.<{ id: string; url: string; width: number; height: number; color: number;
+ * preview: { url: string; width: number; height: number; }, origin: { title: string;
+ * website: { name: string; domain: string; url: string; } } }[]>}
  */
 export function image(query: string, options?: {
     safe?: boolean;
     additional_params?: object;
-    exclude_domains?: Array<string>;
 }): Promise<{
+    id: string;
     url: string;
-    width: string;
-    height: string;
+    width: number;
+    height: number;
+    color: number;
+    preview: {
+        url: string;
+        width: number;
+        height: number;
+    };
     origin: {
         title: string;
-        source: string;
+        website: {
+            name: string;
+            domain: string;
+            url: string;
+        };
     };
 }[]>;

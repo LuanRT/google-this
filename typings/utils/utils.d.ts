@@ -24,6 +24,13 @@ export function getHeaders(options?: {
  */
 export function getStringBetweenStrings(data: string, start_string: string, end_string: string): string;
 /**
+ * Generates a random string with a given length.
+ *
+ * @param {number} length
+ * @returns {string}
+ */
+export function generateRandomString(length: number): string;
+/**
  * Refines the html.
  *
  * @param {string} data - Raw html data.

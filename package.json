@@ -34,6 +34,7 @@
     "url": "git+https://github.com/LuanRT/google-this.git"
   },
   "keywords": [
+    "search",
     "google",
     "google-this",
     "google-search",
@@ -41,11 +42,10 @@
     "google-image-search",
     "reverse-image-search",
     "search-results",
-    "image-search",
     "web-scraping",
-    "scraper",
-    "search",
+    "image-search",
     "image",
+    "scraper",
     "serp",
     "gis"
   ],
