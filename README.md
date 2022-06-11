@@ -1,10 +1,11 @@
 <!-- BADGE LINKS -->
-[npm]: https://www.npmjs.com/package/google-this
-[versions]: https://www.npmjs.com/package/google-this?activeTab=versions
+[npm]: https://www.npmjs.com/package/googlethis
+[versions]: https://www.npmjs.com/package/googlethis?activeTab=versions
 [codefactor]: https://www.codefactor.io/repository/github/luanrt/google-this
 [actions]: https://github.com/LuanRT/google-this/actions
 [say-thanks]: https://saythanks.io/to/LuanRT
 [ko-fi]:https://ko-fi.com/luanrt
+[ghsponsors]: https://github.com/sponsors/LuanRT
 
 <!-- OTHER LINKS -->
 [project]: https://github.com/LuanRT/google-this
@@ -30,7 +31,7 @@
   [![Monthly downloads](https://img.shields.io/npm/dm/googlethis?style=flat)][npm]
   [![Say thanks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)][say-thanks] 
   <br>
-  [![Donate](https://img.shields.io/badge/donate-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)][ko-fi]
+  [![Donate](https://img.shields.io/badge/donate-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)][ghsponsors]
  
 </div>
 
