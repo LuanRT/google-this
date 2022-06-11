@@ -31,6 +31,15 @@ export function getStringBetweenStrings(data: string, start_string: string, end_
  */
 export function generateRandomString(length: number): string;
 /**
+ * Gets a random integer between two values.
+ *
+ * @param {number} min
+ * @param {number} max
+ *
+ * @returns {number}
+ */
+export function getRandomInt(min: number, max: number): number;
+/**
  * Refines the html.
  *
  * @param {string} data - Raw html data.
