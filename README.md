@@ -2423,7 +2423,10 @@ console.log(reverse.results);
 ## See Also
 
 - [YouTube.js](https://github.com/LuanRT/YouTube.js): Full-featured wrapper around YouTube's private API.
+
+<!--
 - [PlaystoreScraper](https://github.com/luanrt/playstore-scraper): A simple module to get search results and app info from Google Play Store.
+-->
 
 ## Related Projects
 - [GoogleThis by Tokipudi](https://github.com/Tokipudi/GoogleThis): A Discord bot meant to integrate features from this library.
