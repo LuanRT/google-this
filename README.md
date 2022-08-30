@@ -46,18 +46,16 @@
 
 ## Installation
 
-- NPM:
-  ```bash
-  npm install googlethis@latest
-  ```
-- Yarn:
-  ```bash
-  yarn add googlethis@latest
-  ```
-- Git:
-  ```bash
-  npm install git+https://github.com/LuanRT/googlethis.git
-  ```
+```bash
+# NPM
+npm install googlethis@latest
+
+# Yarn
+yarn add googlethis@latest
+
+# Git 
+npm install LuanRT:google-this
+```
 
 ## Usage
 
