@@ -25,20 +25,10 @@ export function getHeaders(options?: {
 export function getStringBetweenStrings(data: string, start_string: string, end_string: string): string;
 /**
  * Generates a random string with a given length.
- *
  * @param {number} length
  * @returns {string}
  */
 export function generateRandomString(length: number): string;
-/**
- * Gets a random integer between two values.
- *
- * @param {number} min
- * @param {number} max
- *
- * @returns {number}
- */
-export function getRandomInt(min: number, max: number): number;
 /**
  * Refines the html.
  *

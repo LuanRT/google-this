@@ -25,9 +25,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "1.0.0-rc.10",
-    "replace-special-characters": "1.2.5",
-    "unraw": "^2.0.1",
-    "user-agents": "^1.0.784"
+    "unraw": "^2.0.1"
   },
   "repository": {
     "type": "git",
