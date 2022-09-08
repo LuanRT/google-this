@@ -81,167 +81,242 @@ console.log(response);
 
 ```js
 {
-   "results":[
-      {
-         "title":"The Walking Dead (Video Game)",
-         "description":"The Walking Dead, also known as The Walking Dead: A Telltale Games ...",
-         "url":"https://walkingdead.fandom.com/wiki/The_Walking_Dead_(Video_Game)",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/walkingdead.fandom.com/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=walkingdead.fandom.com"
-         }
-      },
-      {
-         "title":"The Walking Dead (video game) - Wikipedia",
-         "description":"The Walking Dead is an episodic adventure video game developed and ...",
-         "url":"https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game)",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/en.m.wikipedia.org/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=en.m.wikipedia.org"
-         }
-      },
-      {
-         "title":"The Walking Dead (video game series) - Wikipedia",
-         "description":"The Walking Dead is an episodic, graphic adventure video game series developed and published by Telltale Games and Skybound Games, based on The Walking Dead ...",
-         "url":"https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game_series)",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/en.m.wikipedia.org/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=en.m.wikipedia.org"
-         }
-      },
-      {
-         "title":"The Walking Dead: The Telltale Definitive Series on Steam",
-         "description":"Oct 29, 2020 — The Walking Dead: The Telltale Definitive Series contains all 4 Seasons, 400 Days, and The Walking Dead: Michonne, which includes over 50 ...",
-         "url":"https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/store.steampowered.com/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
-         }
-      },
-      {
-         "title":"The Walking Dead: The Final Season on Steam",
-         "description":"All this creates the most engaging The Walking Dead game yet. Striking New ...",
-         "url":"https://store.steampowered.com/app/866800/The_Walking_Dead_The_Final_Season/",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/store.steampowered.com/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
-         }
-      },
-      {
-         "title":"The Walking Dead (Video Game 2012) - IMDb",
-         "description":"The Walking Dead: Directed by Sean Ainsworth, Nick Herman, Dennis Lenart, Eric Parsons, Jake Rodkin, Sean Vanaman. ...",
-         "url":"https://m.imdb.com/title/tt2006890/",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/m.imdb.com/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=m.imdb.com"
-         }
-      },
-      {
-         "title":"Telltale's The Walking Dead - Season 1 - Skybound Entertainment",
-         "description":"The Walking Dead is a five-part game series set in the same universe as Robert Kirkman's award-winning comic book series. Play as Lee Everett, a convicted ...",
-         "url":"https://www.skybound.com/telltales-the-walking-dead-season-1",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/www.skybound.com/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=www.skybound.com"
-         }
-      },
-      {
-         "title":"The Walking Dead (TWD) - Games - Skybound Entertainment",
-         "description":"Get The Latest News on The Walking Dead (TWD) Games! TWD Video & Board Games from Skybound.",
-         "url":"https://www.skybound.com/the-walking-dead/games",
-         "favicons":{
-            "high_res":"https://api.faviconkit.com/www.skybound.com/192",
-            "low_res":"https://www.google.com/s2/favicons?sz=64&domain_url=www.skybound.com"
-         }
-      }
-   ],
-   "knowledge_panel": {
-      "title": "The Walking Dead",
-      "description": "The Walking Dead is an episodic adventure video game developed and published by Telltale Games. It is the first game in the series, which consists of 4 seasons. Based on The Walking Dead comic book series, the game consists of five episodes, released between April and November 2012.",
+  "results": [
+    {
+      "title": "The Walking Dead (video game) - Wikipedia",
+      "description": "The Walking Dead is an episodic adventure video game developed and ...",
       "url": "https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game)",
-      "initial_release_date": "2012",
-      "series": "The Walking Dead",
-      "developer": "Telltale Games",
-      "platforms": "PlayStation 4, Android, Xbox One, PlayStation 3, Xbox 360, Nintendo Switch, More",
-      "awards": "VGX Award for Game of the Year, VGX Award for Best Performance by a Human Female,  More",
-      "genres": "Graphic adventure game, Interactive film, Adventure",
-      "publishers": "Telltale Games, Skybound Games, Howyaknow, LLC",
-      "type": "Video game",
-      "ratings":[
-         {
-            "name":"Steam",
-            "rating":"10/10"
-         }
-      ],
-      "images": [
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmU64CRh5_wsF4S-DbpH_C9ozWVRlvZJmguQ&s",
-            "source":"https://www.pinterest.com/pin/769693392545268465/"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNTRozFnQgRKDsC5aaXj31HvLkcKvroHqExA&s",
-            "source":"https://store.steampowered.com/app/866800/The_Walking_Dead_The_Final_Season/"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITB1paL8GBaYHyw5HlPU60pFdnGV09ygGsw&s",
-            "source":"https://en.wikipedia.org/wiki/The_Walking_Dead:_A_New_Frontier"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtcUSzCxQ6AKjV_hNFSyixXoo0No7bUpvnhw&s",
-            "source":"https://store.playstation.com/?resolve=EP2026-CUSA12026_00-TWDS400000000EP3"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoOQkbxKJEboeavLycSjFV5OfGEJaOUsEow&s",
-            "source":"https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVKcTnZC-Y9HW_E37tgu6vTEZSM4lb0F_DHw&s",
-            "source":"https://en.wikipedia.org/wiki/The_Walking_Dead_(video_game)"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZHmljt0G_-YgOMOkO4XC0L2VQGsRpgGWoNA&s",
-            "source":"https://www.polygon.com/comics/2020/10/11/21509393/walking-dead-game-clementine-new-story-robert-kirkman-invincible-skybound"
-         },
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvrFr-3o2yTiA8DUXgo-53uvBN07NionfQg&s",
-            "source":"https://telltale--games.fandom.com/wiki/Minerva_(The_Walking_Dead)"
-         }
-      ]
-   },
-   "featured_snippet": {
-      "title":"N/A",
-      "description":"N/A",
-      "url":"N/A"
-   },
-   "top_stories": [],
-   "people_also_ask": [
-      "What race is Clementine TWDG?",
-      "How long is TWDG season 2?",
-      "Which Walking Dead game is the first?",
-      "Who does Clementine kill?",
-      "The Walking Dead: The Final Season",
-      "The Walking Dead: a new frontier",
-      "The Walking Dead game characters",
-      "The Walking Dead game Season 1"
-   ],
-   "people_also_search_for": [
-      {
-         "title":"The Wolf Among Us",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgFs6sTHHGkGGNIRhQGZDGcWPHe58clsY5PYJ-DcruOlBj6ZdM-NA&s=0"
-      },
-      {
-         "title":"The Walking D...",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdnHz1lzulmMOk9Og95ZIOtZYeE7hICpFjLiw6TPLeCk4rmWGi7KQz&s=0"
-      },
-      {
-         "title":"400 Days",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFROcUnJIcJ1wZ6NWKoI8HWd8Sc7Bit44nO-Lt6GsOCIITgYgiXu8&s=0"
-      },
-      {
-         "title":"The Walking D...",
-         "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN0iib2gjyjjcQn695ce3hXB4BssAj-lOmXIbp__--QB9Gk-ahA5qB&s=0"
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/en.m.wikipedia.org/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=en.m.wikipedia.org"
       }
-   ]
+    },
+    {
+      "title": "The Walking Dead (video game series) - Wikipedia",
+      "description": "The Walking Dead is an episodic graphic adventure game series developed and published by Telltale Games and Skybound Games. It is based on the comic book ...",
+      "url": "https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game_series)",
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/en.m.wikipedia.org/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=en.m.wikipedia.org"
+      }
+    },
+    {
+      "title": "The Walking Dead (Video Game)",
+      "description": "The Walking Dead, also known as The Walking Dead: A Telltale Games ...",
+      "url": "https://walkingdead.fandom.com/wiki/The_Walking_Dead_(Video_Game)",
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/walkingdead.fandom.com/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=walkingdead.fandom.com"
+      }
+    },
+    {
+      "title": "The Walking Dead on Steam",
+      "description": "Apr 24, 2012 — The Walking Dead is a five-part game series set in the ...",
+      "url": "https://store.steampowered.com/app/207610/The_Walking_Dead/",
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/store.steampowered.com/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
+      }
+    },
+    {
+      "title": "The Walking Dead: The Telltale Definitive Series on Steam",
+      "description": "Oct 29, 2020 — The Walking Dead: The Telltale Definitive Series ...",
+      "url": "https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/",
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/store.steampowered.com/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
+      }
+    },
+    {
+      "title": "The Walking Dead (Video Game 2012) - IMDb",
+      "description": "The Walking Dead: Directed by Sean Ainsworth, Nick Herman, Dennis Lenart, Eric Parsons, Jake Rodkin, Sean Vanaman. With Dave Fennoy, Melissa Hutchison, ...",
+      "url": "https://m.imdb.com/title/tt2006890/",
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/m.imdb.com/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=m.imdb.com"
+      }
+    },
+    {
+      "title": "The Walking Dead: A New Frontier (Video Game 2016) - IMDb",
+      "description": "The Walking Dead: A New Frontier: Directed by Rebekah Gamin, Jason Latino, Chris Rebbert, Jason Pyke. With Jeff Schine, ...",
+      "url": "https://m.imdb.com/title/tt5785978/",
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/m.imdb.com/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=m.imdb.com"
+      }
+    },
+    {
+      "title": "The Walking Dead (Telltale) (Video Game) - TV Tropes",
+      "description": "The Walking Dead: The Game is an episodic series by Telltale Games that began in 2012. As in Jurassic Park: The Game, you guide your character in an ...",
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/TheWalkingDead",
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/tvtropes.org/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=tvtropes.org"
+      }
+    },
+    {
+      "title": "Assistir | The Walking Dead | Star+ - Star Plus",
+      "description": "The Walking Dead. A série acompanha um grupo de sobreviventes durante um apocalipse zumbi. Às vezes, os conflitos interpessoais geram tanto perigo que ...",
+      "url": "https://www.starplus.com/pt-br/series/the-walking-dead/6FPLfTcQrTpy",
+      "favicons": {
+        "high_res": "https://api.faviconkit.com/www.starplus.com/192",
+        "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=www.starplus.com"
+      }
+    }
+  ],
+  "videos": [],
+  "knowledge_panel": {
+    "type": "Video game",
+    "title": "The Walking Dead",
+    "description": "The Walking Dead is an episodic adventure video game developed and published by Telltale Games. It is the first game in the series, which consists of 4 seasons and a spin-off game based on Michonne.",
+    "url": "https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game)",
+    "metadata": [
+      {
+        "title": "Series",
+        "value": "The Walking Dead"
+      },
+      {
+        "title": "Developer",
+        "value": "Telltale Games"
+      },
+      {
+        "title": "Initial release date",
+        "value": "2012"
+      },
+      {
+        "title": "Platforms",
+        "value": "Android, PlayStation 4, Xbox One, Nintendo Switch, Xbox 360, PlayStation 3, more"
+      },
+      {
+        "title": "Genres",
+        "value": "Interactive film, Graphic adventure game, Adventure"
+      },
+      {
+        "title": "Composer",
+        "value": "Jared Emerson-Johnson"
+      },
+      {
+        "title": "Developer",
+        "value": "Telltale Games"
+      }
+    ],
+    "books": [],
+    "tv_shows_and_movies": [],
+    "ratings": [
+      {
+        "name": "Steam",
+        "rating": "10/10"
+      },
+      {
+        "name": "IMDb",
+        "rating": "9.2/10"
+      }
+    ],
+    "available_on": [],
+    "images": [
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoOQkbxKJEboeavLycSjFV5OfGEJaOUsEow&s",
+        "source": "https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtInvx4Jj5kTmXUCpJKiwsFwf8LdgzmFa3A&s",
+        "source": "https://walkingdead.fandom.com/pt-br/wiki/The_Walking_Dead_(Videogame)"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmMl5yCFIryUsbYN2wt0wCnMVJXMSdjHVriw&s",
+        "source": "https://play.google.com/store/apps/details?id=com.telltalegames.walkingdead300&hl=pt&gl=US"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuwJA94PfF_7Hvy-9OH3QuOYje1U-B4Cd8bg&s",
+        "source": "https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo4iHcqSh0pXQddH1EpJYfD7g6Qn69fd2M5g&s",
+        "source": "https://walkingdead.fandom.com/pt-br/wiki/2%C2%AA_Temporada_(Videogame)"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf6xUDRt1VU8nQnx2_mM7tESJ5CemDlf5LBA&s",
+        "source": "https://store.steampowered.com/app/536220/The_Walking_Dead_A_New_Frontier/"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-tvBUafKU2LtipNbiQsnlzmTiTfwCh3aHcw&s",
+        "source": "https://walkingdead.fandom.com/wiki/Season_3_(Video_Game)"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36f_nMhFvGCOOG8L7bdv-oP2hDgjBQsEOuQ&s",
+        "source": "https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/"
+      }
+    ],
+    "songs": [],
+    "demonstration": null,
+    "lyrics": null
+  },
+  "featured_snippet": {
+    "title": null,
+    "description": null,
+    "url": null
+  },
+  "did_you_mean": null,
+  "weather": {
+    "location": null,
+    "forecast": null,
+    "precipitation": null,
+    "humidity": null,
+    "temperature": null,
+    "wind": null
+  },
+  "time": {
+    "hours": null,
+    "date": null
+  },
+  "location": {
+    "title": null,
+    "distance": null,
+    "map": null
+  },
+  "dictionary": {
+    "word": null,
+    "phonetic": null,
+    "audio": null,
+    "definitions": [],
+    "examples": []
+  },
+  "translation": {
+    "source_language": null,
+    "target_language": null,
+    "source_text": null,
+    "target_text": null
+  },
+  "top_stories": [],
+  "unit_converter": {},
+  "people_also_ask": [
+    "the walking dead: the final season",
+    "The Walking Dead game Season 4",
+    "Twdg characters",
+    "The Walking Dead game Season 5",
+    "The Walking Dead game download",
+    "The Walking Dead Game wiki",
+    "The Walking Dead: 400 Days",
+    "the walking dead: the telltale definitive series",
+    "The Walking Dead: Michonne",
+    "The Walking Dead game PC",
+    "the walking dead: a new frontier",
+    "The Walking Dead Telltale",
+    "the walking dead: season two",
+    "How long does it take to play TWDG?",
+    "What genre is TWDG?",
+    "Is there going to be a season 5 of TWDG?",
+    "How long is TWDG Season 2?",
+    "twdg clementine",
+    "the walking dead: the final season",
+    "twdg characters",
+    "the walking dead game season 4",
+    "the walking dead game wiki",
+    "the walking dead game season 5",
+    "the walking dead: the telltale definitive series",
+    "the walking dead game download"
+  ],
+  "people_also_search": []
 }
 ```
 
@@ -265,41 +340,84 @@ Will look like:
 ```js
 {
    //....
-   "knowledge_panel":{
-      "title":"Stephen Hawking",
-      "description":"Stephen William Hawking CH CBE FRS FRSA was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge at the time of his death.",
-      "url":"https://en.m.wikipedia.org/wiki/Stephen_Hawking",
-      "born":"January 8, 1942, Oxford, United Kingdom",
-      "died":"March 14, 2018, Cambridge, United Kingdom",
-      "spouse":"Elaine Mason (m. 1995–2006), Jane Hawking (m. 1965–1995)",
-      "children":"Timothy Hawking, Robert Hawking, Lucy Hawking",
-      "type":"English theoretical physicist",
-      "books":[
-         {
-            "title":"A Brief History of Time",
-            "year":"1988"
-         },
-         //...
-      ],
-      "tv_shows_and_movies":[
-         {
-            "title":"A Brief History of Time",
-            "year":"1991"
-         },
-         {
-            "title":"Into the Universe With Stephen Hawking",
-            "year":"2010"
-         }, 
-         //...
-      ],
-      "images":[
-         {
-            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT802HAtAk2bvdBUxv_9kx01sK6n-kfi3_Y5g&s",
-            "source":"https://veja.abril.com.br/ciencia/5-livros-escritos-por-stephen-hawking-que-voce-precisa-conhecer/"
-         },
-         //...
-      ]
-   }
+  "knowledge_panel": {
+    "type": "English theoretical physicist",
+    "title": "Stephen Hawking",
+    "description": "Stephen William Hawking CH CBE FRS FRSA was an English theoretical physicist, cosmologist, and author who, at the time of his death, was director of research at the Centre for Theoretical Cosmology at the University of Cambridge.",
+    "url": "https://en.m.wikipedia.org/wiki/Stephen_Hawking",
+    "metadata": [
+      {
+        "title": "Born",
+        "value": "January 8, 1942, Oxford, United Kingdom"
+      },
+      {
+        "title": "Died",
+        "value": "March 14, 2018, Cambridge, United Kingdom"
+      },
+      {
+        "title": "Spouse",
+        "value": "Jane Hawking (m. 1965–1995)"
+      },
+      {
+        "title": "Children",
+        "value": "Lucy Hawking, Robert Hawking, Timothy Hawking"
+      },
+      {
+        "title": "Grandchild",
+        "value": "William Smith"
+      }
+    ],
+    "books": [
+      {
+        "title": "A Brief History of Time",
+        "year": "1988"
+      },
+      {
+        "title": "The Theory of Everything",
+        "year": "2002"
+      },
+      {
+        "title": "Brief Answers to the Big Questions",
+        "year": "2018"
+      },
+      // ...
+    ],
+    "tv_shows_and_movies": [
+      {
+        "title": "The Big Bang Theory",
+        "year": "2007 – 2019"
+      },
+      {
+        "title": "Hawking",
+        "year": "2013"
+      },
+      {
+        "title": "Pope Francis: A Man of His Word",
+        "year": "2018"
+      },
+      // ...
+    ],
+    "ratings": [],
+    "available_on": [],
+    "images": [
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxAnWUfynMEzPWZ6HW_dgPBrTofkvL0HxJhA&s",
+        "source": "https://www.youtube.com/watch?v=uAs_QMIzGMY"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjge7YZaQDXprEsagPMmyKDeO75vpm4EHbsA&s",
+        "source": "https://revistagalileu.globo.com/Ciencia/Espaco/noticia/2018/03/stephen-hawking-morre-aos-76-anos-conheca-seu-legado.html"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAWF8OW59cueqlC1QECwrr5Eds5vrAPIQBsA&s",
+        "source": "https://www.tecmundo.com.br/ciencia/235370-stephen-hawking-veja-5-livros-conhecer-obra-cientista.htm"
+      },
+      // ...
+    ],
+    "songs": [],
+    "demonstration": null,
+    "lyrics": null
+  }
 }
 ```
 
