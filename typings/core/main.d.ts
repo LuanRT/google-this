@@ -25,14 +25,14 @@ export function getTopNews(language?: string, region?: string): Promise<{
 }>;
 /**
  * Search a given query on Google.
- * @param {string} query - search query
+ * @param {string | object} query - search query
  * @param {object} [options] search options
  * @param {boolean} [options.ris] - use reverse image search
  * @param {boolean} [options.safe] - safe search
  * @param {number} [options.page] - pagination
  * @param {object} [options.additional_params] - parameters that will be passed to Google
  */
-export function search(query: string, options?: {
+export function search(query: string | object, options?: {
     ris?: boolean;
     safe?: boolean;
     page?: number;
