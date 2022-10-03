@@ -41,4 +41,6 @@ declare class KnowledgeGraph {
     demonstration: string | null;
     /** @type {string | null} */
     lyrics: string | null;
+    /** @type {string[]} */
+    socials: string[];
 }
