@@ -5,10 +5,6 @@ export namespace URLS {
     const GOOGLE_NEWS: string;
     const FAVICONKIT: string;
 }
-export namespace REGEX {
-    const IMAGE_SEARCH: RegExp;
-    const IMAGE_ORIGIN: RegExp;
-}
 export namespace SELECTORS {
     const TITLE: string;
     const DESCRIPTION: string;

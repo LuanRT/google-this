@@ -5,14 +5,14 @@
  * @param {string} [region] - two digits region code.
  *
  * @returns {Promise.<{
-     headline_stories: {
-       title: string;
-       url: string;
-       image: string;
-       published: string;
-       by: string;
-     }[]
-   }>}
+ *   headline_stories: {
+ *     title: string;
+ *     url: string;
+ *     image: string;
+ *     published: string;
+ *     by: string;
+ *  }[]
+ * }>}
  */
 export function getTopNews(language?: string, region?: string): Promise<{
     headline_stories: {
@@ -24,24 +24,27 @@ export function getTopNews(language?: string, region?: string): Promise<{
     }[];
 }>;
 /**
- * Search a given query on Google.
- * @param {string | object} query - search query
- * @param {object} [options] search options
- * @param {boolean} [options.ris] - use reverse image search
- * @param {boolean} [options.safe] - safe search
- * @param {number} [options.page] - pagination
+ * Searches a given query on Google.
+ * @param {string | object} query - The query to search for.
+ * @param {object} [options] - Search options.
+ * @param {boolean} [options.ris] - Weather this is a reverse image search or not.
+ * @param {boolean} [options.safe] - Weather to use safe search or not.
+ * @param {number} [options.page] - Page number
+ * @param {boolean} [options.parse_ads] - Weather or not to parse ads.
  * @param {object} [options.additional_params] - parameters that will be passed to Google
  */
 export function search(query: string | object, options?: {
     ris?: boolean;
     safe?: boolean;
     page?: number;
+    parse_ads?: boolean;
     additional_params?: object;
 }): Promise<{
     results: {
         title: string;
         description: string;
         url: string;
+        is_sponsored: boolean;
         favicons: {
             high_res: string;
             low_res: string;
@@ -76,31 +79,30 @@ export function search(query: string | object, options?: {
 /**
  * Google image search.
  *
- * @param {string} query - search query
- * @param {object} [options] - search options
- * @param {boolean} [options.safe] - safe search
- * @param {object} [options.additional_params] - additional parameters
- *
+ * @param {string} query - The query to search for.
+ * @param {object} [options] - Search options.
+ * @param {boolean} [options.safe] - Weather to use safe search or not.
+ * @param {object} [options.additional_params] - Additional parameters that will be passed to Google.
  * @returns {Promise.<{
-    id: string;
-    url: string;
-    width: number;
-    height: number;
-    color: number;
-    preview: {
-      url: string;
-      width: number;
-      height: number;
-    },
-    origin: {
-      title: string;
-      website: {
-        name: string;
-        domain: string;
-        url: string;
-      }
-    }
- }[]>}
+ *  id: string;
+ *  url: string;
+ *  width: number;
+ *  height: number;
+ *  color: number;
+ *  preview: {
+ *    url: string;
+ *    width: number;
+ *    height: number;
+ *  },
+ *  origin: {
+ *    title: string;
+ *    website: {
+ *      name: string;
+ *      domain: string;
+ *      url: string;
+ *    }
+ *  }
+ *}[]>}
  */
 export function image(query: string, options?: {
     safe?: boolean;

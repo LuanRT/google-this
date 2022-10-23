@@ -37,10 +37,19 @@ declare class KnowledgeGraph {
         title: string;
         album: string;
     }[];
+    /** @type {Social[]} */
+    socials: Social[];
     /** @type {string | null} */
     demonstration: string | null;
     /** @type {string | null} */
     lyrics: string | null;
-    /** @type {string[]} */
-    socials: string[];
+}
+declare class Social {
+    constructor(data: any);
+    /** @type {string} */
+    name: string;
+    /** @type {string} */
+    url: string;
+    /** @type {string} */
+    icon: string;
 }
