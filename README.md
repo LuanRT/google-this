@@ -65,7 +65,8 @@ import google from 'googlethis';
 
 const options = {
   page: 0, 
-  safe: false,
+  safe: false, // Safe Search
+  parse_ads: false, // If set to true sponsored results will be parsed
   additional_params: { 
     // add additional parameters here, see https://moz.com/blog/the-ultimate-guide-to-the-google-search-parameters and https://www.seoquake.com/blog/google-search-param/
     hl: 'en' 
@@ -86,6 +87,7 @@ console.log(response);
       "title": "The Walking Dead (video game) - Wikipedia",
       "description": "The Walking Dead is an episodic adventure video game developed and ...",
       "url": "https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game)",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/en.m.wikipedia.org/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=en.m.wikipedia.org"
@@ -95,6 +97,7 @@ console.log(response);
       "title": "The Walking Dead (video game series) - Wikipedia",
       "description": "The Walking Dead is an episodic graphic adventure game series developed and published by Telltale Games and Skybound Games. It is based on the comic book ...",
       "url": "https://en.m.wikipedia.org/wiki/The_Walking_Dead_(video_game_series)",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/en.m.wikipedia.org/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=en.m.wikipedia.org"
@@ -104,6 +107,7 @@ console.log(response);
       "title": "The Walking Dead (Video Game)",
       "description": "The Walking Dead, also known as The Walking Dead: A Telltale Games ...",
       "url": "https://walkingdead.fandom.com/wiki/The_Walking_Dead_(Video_Game)",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/walkingdead.fandom.com/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=walkingdead.fandom.com"
@@ -113,6 +117,7 @@ console.log(response);
       "title": "The Walking Dead on Steam",
       "description": "Apr 24, 2012 — The Walking Dead is a five-part game series set in the ...",
       "url": "https://store.steampowered.com/app/207610/The_Walking_Dead/",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/store.steampowered.com/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
@@ -122,6 +127,7 @@ console.log(response);
       "title": "The Walking Dead: The Telltale Definitive Series on Steam",
       "description": "Oct 29, 2020 — The Walking Dead: The Telltale Definitive Series ...",
       "url": "https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/store.steampowered.com/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com"
@@ -131,6 +137,7 @@ console.log(response);
       "title": "The Walking Dead (Video Game 2012) - IMDb",
       "description": "The Walking Dead: Directed by Sean Ainsworth, Nick Herman, Dennis Lenart, Eric Parsons, Jake Rodkin, Sean Vanaman. With Dave Fennoy, Melissa Hutchison, ...",
       "url": "https://m.imdb.com/title/tt2006890/",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/m.imdb.com/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=m.imdb.com"
@@ -140,6 +147,7 @@ console.log(response);
       "title": "The Walking Dead: A New Frontier (Video Game 2016) - IMDb",
       "description": "The Walking Dead: A New Frontier: Directed by Rebekah Gamin, Jason Latino, Chris Rebbert, Jason Pyke. With Jeff Schine, ...",
       "url": "https://m.imdb.com/title/tt5785978/",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/m.imdb.com/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=m.imdb.com"
@@ -149,6 +157,7 @@ console.log(response);
       "title": "The Walking Dead (Telltale) (Video Game) - TV Tropes",
       "description": "The Walking Dead: The Game is an episodic series by Telltale Games that began in 2012. As in Jurassic Park: The Game, you guide your character in an ...",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/TheWalkingDead",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/tvtropes.org/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=tvtropes.org"
@@ -158,6 +167,7 @@ console.log(response);
       "title": "Assistir | The Walking Dead | Star+ - Star Plus",
       "description": "The Walking Dead. A série acompanha um grupo de sobreviventes durante um apocalipse zumbi. Às vezes, os conflitos interpessoais geram tanto perigo que ...",
       "url": "https://www.starplus.com/pt-br/series/the-walking-dead/6FPLfTcQrTpy",
+      "is_sponsored": false,
       "favicons": {
         "high_res": "https://api.faviconkit.com/www.starplus.com/192",
         "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=www.starplus.com"
