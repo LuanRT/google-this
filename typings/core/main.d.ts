@@ -29,8 +29,9 @@ export function getTopNews(language?: string, region?: string): Promise<{
  * @param {object} [options] - Search options.
  * @param {boolean} [options.ris] - Weather this is a reverse image search or not.
  * @param {boolean} [options.safe] - Weather to use safe search or not.
- * @param {number} [options.page] - Page number
+ * @param {number} [options.page] - Page number.
  * @param {boolean} [options.parse_ads] - Weather or not to parse ads.
+ * @param {boolean} [options.use_mobile_ua] - Weather or not to use a mobile user agent.
  * @param {object} [options.additional_params] - parameters that will be passed to Google
  */
 export function search(query: string | object, options?: {
@@ -38,6 +39,7 @@ export function search(query: string | object, options?: {
     safe?: boolean;
     page?: number;
     parse_ads?: boolean;
+    use_mobile_ua?: boolean;
     additional_params?: object;
 }): Promise<{
     results: {

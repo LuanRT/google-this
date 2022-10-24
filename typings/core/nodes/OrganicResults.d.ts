@@ -12,7 +12,7 @@ declare class OrganicResults {
      *   }
      *  }[]}
      */
-    static parse($: any, parse_ads?: boolean): {
+    static parse($: any, parse_ads?: boolean, is_mobile?: boolean): {
         title: string;
         description: string;
         url: string;

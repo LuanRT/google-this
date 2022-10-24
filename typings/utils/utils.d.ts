@@ -45,4 +45,4 @@ export function getRandomInt(min: number, max: number): number;
  * @param {boolean} parse_ads - Whether to parse ads or not.
  * @returns {string}
  */
-export function refineData(data: string, parse_ads?: boolean): string;
+export function refineData(data: string, parse_ads?: boolean, is_mobile?: boolean): string;
