@@ -7,6 +7,11 @@ describe('GoogleThis Tests', () => {
     const search = await google.search('Stephen Hawking');
     expect(search.results).not.toHaveLength(0);
   });
+
+  it('Should search using a desktop user agent', async () => {
+    const search = await google.search('Stephen Hawking', { use_mobile_ua: false });
+    expect(search.results).not.toHaveLength(0);
+  });
   
   it('Should search images', async () => {
     const search = await google.image('Supermassive Blackhole');
