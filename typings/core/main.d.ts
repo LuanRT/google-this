@@ -32,7 +32,8 @@ export function getTopNews(language?: string, region?: string): Promise<{
  * @param {number} [options.page] - Page number.
  * @param {boolean} [options.parse_ads] - Weather or not to parse ads.
  * @param {boolean} [options.use_mobile_ua] - Weather or not to use a mobile user agent.
- * @param {object} [options.additional_params] - parameters that will be passed to Google
+ * @param {object} [options.additional_params] - Additional parameters that will be passed to Google.
+ * @param {Axios.AxiosRequestConfig} [options.axios_config] - Config that will be passed to Axios.
  */
 export function search(query: string | object, options?: {
     ris?: boolean;
@@ -41,6 +42,7 @@ export function search(query: string | object, options?: {
     parse_ads?: boolean;
     use_mobile_ua?: boolean;
     additional_params?: object;
+    axios_config?: Axios.AxiosRequestConfig;
 }): Promise<{
     results: {
         title: string;
@@ -85,6 +87,7 @@ export function search(query: string | object, options?: {
  * @param {object} [options] - Search options.
  * @param {boolean} [options.safe] - Weather to use safe search or not.
  * @param {object} [options.additional_params] - Additional parameters that will be passed to Google.
+ * @param {Axios.AxiosRequestConfig} [options.axios_config] - Config that will be passed to Axios.
  * @returns {Promise.<{
  *  id: string;
  *  url: string;
@@ -109,6 +112,7 @@ export function search(query: string | object, options?: {
 export function image(query: string, options?: {
     safe?: boolean;
     additional_params?: object;
+    axios_config?: Axios.AxiosRequestConfig;
 }): Promise<{
     id: string;
     url: string;
@@ -129,6 +133,7 @@ export function image(query: string, options?: {
         };
     };
 }[]>;
+import Axios = require("axios");
 import KnowledgeGraph = require("./nodes/KnowledgeGraph");
 import FeaturedSnippet = require("./nodes/FeaturedSnippet");
 import Weather = require("./nodes/Weather");
