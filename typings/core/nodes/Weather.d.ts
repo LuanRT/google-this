@@ -13,4 +13,6 @@ declare class Weather {
     temperature: string | null;
     /** @type {string | null} */
     wind: string | null;
+    /** @type {string | null} */
+    image: string | null;
 }
