@@ -16,11 +16,7 @@
   Google This
 </h1>
 
-<p align="center">
-  <i>
-    A simple yet powerful module to retrieve organic search results and much more from Google.
-  </i>
-<p>
+<p align="center">A simple yet powerful module to retrieve organic search results and much more from Google.<p>
 
 <!-- BADGES -->
 <div align="center">
@@ -493,9 +489,6 @@ const images = await google.image('The Wolf Among Us', { safe: false });
 console.log(images); 
   
 // Reverse Image Search
-const reverse = await google.search('https://i.pinimg.com/236x/92/16/d9/9216d9a222ef65eb6eabfff1970180d1.jpg', { ris: true });
-
-// Or simply search the image directly (more accurate)
 const my_awesome_image = fs.readFileSync('./wow.png');
 const reverse = await google.search(my_awesome_image, { ris: true });
 
