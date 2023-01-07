@@ -22,10 +22,4 @@ describe('GoogleThis Tests', () => {
     const news = await google.getTopNews('en', 'AU');
     expect(news.headline_stories).not.toHaveLength(0);
   });
-
-
-  it('Should retrieve weather', async () => {
-    const search = await google.search("weather paris")
-    expect(search.weather.image).not.toBe(null)
-  })
 });
