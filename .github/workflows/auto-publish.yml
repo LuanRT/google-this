@@ -1,0 +1,30 @@
+name: Auto publish and create release
+on:
+  push:
+    branches:
+      - main
+            - next
+  pull_request:
+    branches:
+      - main
+jobs:
+  autorelease:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: git fetch --unshallow --tags
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.15.0'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Auto release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm ci
+          npx auto shipit

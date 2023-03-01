@@ -53,6 +53,7 @@
   "homepage": "https://github.com/LuanRT/google-this#readme",
   "devDependencies": {
     "@types/node": "^17.0.31",
+    "auto": "^10.43.0",
     "eslint": "^8.16.0",
     "jest": "^28.1.0",
     "typescript": "^4.6.4"
