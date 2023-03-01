@@ -1,6 +1,6 @@
 {
   "name": "googlethis-augmented",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A fork of googlethis to get specific data for different needs.",
   "main": "lib/index.js",
   "author": "Jacob Beck",
