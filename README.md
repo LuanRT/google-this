@@ -1,15 +1,5 @@
-<!-- BADGE LINKS -->
-[npm]: https://www.npmjs.com/package/googlethis
-[versions]: https://www.npmjs.com/package/googlethis?activeTab=versions
-[codefactor]: https://www.codefactor.io/repository/github/luanrt/google-this
-[actions]: https://github.com/LuanRT/google-this/actions
-[say-thanks]: https://saythanks.io/to/LuanRT
-[ko-fi]:https://ko-fi.com/luanrt
-[ghsponsors]: https://github.com/sponsors/LuanRT
-
 <!-- OTHER LINKS -->
-[project]: https://github.com/LuanRT/google-this
-[twitter]: https://twitter.com/lrt_nooneknows
+[forked from]: https://github.com/LuanRT/google-this
 
 <!-- INTRODUCTION -->
 <h1 align="center">
