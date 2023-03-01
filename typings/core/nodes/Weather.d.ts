@@ -1,6 +1,6 @@
 export = Weather;
 declare class Weather {
-    constructor($: any);
+    constructor($: any, data: any);
     /** @type {string | null} */
     location: string | null;
     /** @type {string | null} */

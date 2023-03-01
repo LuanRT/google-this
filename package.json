@@ -1,10 +1,9 @@
 {
-  "name": "googlethis",
-  "version": "1.7.1",
-  "description": "A simple yet powerful module to retrieve organic search results and much more from Google.",
+  "name": "googlethis-augmented",
+  "version": "0.0.1",
+  "description": "A fork of googlethis to get specific data for different needs.",
   "main": "lib/index.js",
-  "author": "LuanRT <luan.lrt4@gmail.com> (https://github.com/LuanRT)",
-  "funding": "https://github.com/sponsors/LuanRT",
+  "author": "Jacob Beck",
   "license": "MIT",
   "scripts": {
     "test": "jest",
