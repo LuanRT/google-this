@@ -11,7 +11,7 @@ export namespace SELECTORS {
     const URL: string;
     const DID_YOU_MEAN: string;
     const KNO_PANEL_TITLE: string[];
-    const KNO_PANEL_DESCRIPTION: string;
+    const KNO_PANEL_DESCRIPTION: string[];
     const KNO_PANEL_URL: string;
     const KNO_PANEL_METADATA: string;
     const KNO_PANEL_TYPE: string;
