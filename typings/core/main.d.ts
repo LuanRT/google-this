@@ -43,6 +43,7 @@ export function search(query: string | object, options?: {
     use_mobile_ua?: boolean;
     additional_params?: object;
     axios_config?: Axios.AxiosRequestConfig;
+    axios_instance?: Axios.AxiosInstance;
 }): Promise<{
     results: {
         title: string;
@@ -113,6 +114,7 @@ export function image(query: string, options?: {
     safe?: boolean;
     additional_params?: object;
     axios_config?: Axios.AxiosRequestConfig;
+    axios_instance?: Axios.AxiosInstance;
 }): Promise<{
     id: string;
     url: string;
