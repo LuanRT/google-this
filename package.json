@@ -1,6 +1,6 @@
 {
   "name": "googlethis",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "A simple yet powerful module to retrieve organic search results and much more from Google.",
   "main": "lib/index.js",
   "author": "LuanRT <luan.lrt4@gmail.com> (https://github.com/LuanRT)",
