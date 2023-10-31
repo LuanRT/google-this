@@ -66,6 +66,10 @@ const options = {
   additional_params: { 
     // add additional parameters here, see https://moz.com/blog/the-ultimate-guide-to-the-google-search-parameters and https://www.seoquake.com/blog/google-search-param/
     hl: 'en' 
+  },
+  SELECTORS: {
+    // allow overriding cheerio selectors in case Google class names change. See constants.js for all selectors
+    TITLE: "div.q8U8x.oewGkc.LeUQr",
   }
 }
   
